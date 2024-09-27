@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './App.css'
+import '../App.css'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,10 +12,10 @@ function App() {
           </div>
           <div>
               <a target="_blank">
-                  <img src='../assets/picture.JPG' className="logo"/>
+                  <img src='../../assets/picture.JPG' className="logo"/>
               </a>
               <a href="https://react.dev" target="_blank">
-                  <img src='../assets/picture.JPG' className="logo react" alt="React logo"/>
+                  <img src='../../assets/picture.JPG' className="logo react" alt="React logo"/>
               </a>
           </div>
           <div className="card">
