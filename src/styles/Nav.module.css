@@ -1,0 +1,27 @@
+@import "vars.css";
+
+.navbar {
+    margin: 0 10%;
+    @apply relative flex items-center justify-between;
+    @apply pt-16 z-10;
+}
+
+.title {
+    color: var(--color-text);
+
+    @apply text-3xl font-semibold no-underline;
+}
+
+.menu {
+    @apply flex;
+}
+
+.menuItems {
+    @apply flex gap-11 list-none;
+}
+
+.menuItems a {
+    color: var(--color-text);
+
+    @apply text-2xl no-underline;
+}
