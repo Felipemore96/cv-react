@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../styles/App.modules.css";
+import "../styles/App.module.css";
 export function Main() {
   return (
     <>
