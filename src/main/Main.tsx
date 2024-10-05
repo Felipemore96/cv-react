@@ -4,7 +4,7 @@ export function Main() {
   return (
     <>
       <a target="_blank">
-        <img src="../../assets/picture.JPG" className="logo" />
+        <img src="../../assets/photos/picture.JPG" className="logo" />
       </a>
     </>
   );
