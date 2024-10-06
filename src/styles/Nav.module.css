@@ -8,6 +8,7 @@
 
 .title {
     color: var(--color-text);
+    font-family: var(--font-robot);
 
     @apply text-3xl font-semibold no-underline;
 }
@@ -22,6 +23,7 @@
 
 .menuItems a {
     color: var(--color-text);
+    font-family: var(--font-robot);
 
     @apply text-2xl no-underline;
 }
