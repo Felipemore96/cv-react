@@ -5,7 +5,7 @@
     margin-left: 15%;
     margin-right: 15%;
 
-    @apply relative flex items-center justify-between my-12;
+    @apply relative flex items-center justify-between mb-12 mt-20;
 }
 
 .content {

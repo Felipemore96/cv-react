@@ -3,7 +3,7 @@
 .navbar {
     margin: 0 10%;
     @apply relative flex items-center justify-between;
-    @apply pt-16 z-10;
+    @apply pt-10 z-10;
 }
 
 .title {
