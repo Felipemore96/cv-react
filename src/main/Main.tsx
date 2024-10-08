@@ -1,5 +1,6 @@
 import { useState } from "react";
 import styles from "../styles/Main.module.css";
+import { getImageUrl } from "../utils.ts";
 export function Main() {
   return (
     <section className={styles.container}>
@@ -13,10 +14,23 @@ export function Main() {
           <a className={styles.btnLarge}>Contact Me</a>
         </div>
         <div className={styles.secondBtnLine}>
-          <a className={styles.btnSmall}>
-            <span className="material-icons-round">linkedin-circle</span>
+          <a
+            className={styles.btnSmall}
+            href="https://www.linkedin.com/in/felipemoreiras796/"
+          >
+            <img
+              src={getImageUrl("icons/linkedin.png")}
+              className={styles.icon}
+              alt="LinkeIn Profile"
+            />
           </a>
-          <a className={styles.btnSmall}>GtH</a>
+          <a className={styles.btnSmall} href="https://github.com/Felipemore96">
+            <img
+              src={getImageUrl("icons/github.png")}
+              className={styles.icon}
+              alt="LinkeIn Profile"
+            />
+          </a>
         </div>
       </div>
     </section>
