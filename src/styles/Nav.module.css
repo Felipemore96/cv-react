@@ -46,7 +46,7 @@
     }
 
     .menuBtn {
-        @apply block cursor-pointer;
+        @apply block cursor-pointer w-10;
     }
 
     .menuItems {
