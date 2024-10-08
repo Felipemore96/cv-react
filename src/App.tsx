@@ -9,18 +9,14 @@ import { Contact } from "./contact/Contact.tsx";
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <div className={styles.App}>
-        <Nav />
-        <Routes>
-          <Route path="/" element={<Main />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/experience" element={<Experience />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/Contact" element={<Contact />} />
-        </Routes>
-      </div>
-    </BrowserRouter>
+    <div className={styles.App}>
+      <Nav />
+      <Main />
+      <About />
+      <Experience />
+      <Projects />
+      <Contact />
+    </div>
   );
 };
 

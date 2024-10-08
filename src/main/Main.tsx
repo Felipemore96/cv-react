@@ -13,7 +13,9 @@ export function Main() {
           <a className={styles.btnLarge}>Contact Me</a>
         </div>
         <div className={styles.secondBtnLine}>
-          <a className={styles.btnSmall}>LnI</a>
+          <a className={styles.btnSmall}>
+            <span className="material-icons-round">linkedin-circle</span>
+          </a>
           <a className={styles.btnSmall}>GtH</a>
         </div>
       </div>

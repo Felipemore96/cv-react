@@ -1,6 +1,9 @@
 export function Experience() {
-
-    return (
-        <></>
-    )
+  return (
+    <>
+      <label>
+        <span className="material-icons-round">person</span>Contact
+      </label>
+    </>
+  );
 }

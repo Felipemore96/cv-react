@@ -1,6 +1,7 @@
 export function About() {
-
-    return (
-        <></>
-    )
+  return (
+    <section id="about">
+      <h1>HELLO</h1>
+    </section>
+  );
 }
