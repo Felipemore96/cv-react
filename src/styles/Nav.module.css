@@ -3,7 +3,7 @@
 .navbar {
     margin: 0 10%;
     @apply relative flex items-center justify-between;
-    @apply pt-10 z-10;
+    @apply pt-10 z-10 h-1/6;
 }
 
 .title {
@@ -34,11 +34,16 @@
 
 @media screen and (max-width: 830px) {
     .navbar {
-        @apply flex-col items-start;
+        margin: 0 5%;
+        @apply flex-col items-start justify-between;
+    }
+
+    .title {
+        @apply text-2xl text-pretty;
     }
 
     .menu {
-        margin-right: 10%;
+        margin-top: -5px;
         z-index: 3;
 
         @apply absolute right-0 flex-col;

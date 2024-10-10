@@ -1,23 +1,27 @@
 @import "./vars.css";
 
 .container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10%;
     z-index: 1;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
 
-    @apply relative flex items-center justify-between mb-12 mt-20;
+.photo {
+    z-index: 1;
+    max-width: 40%;
 }
 
 .content {
     color: var(--color-text);
     z-index: 1;
+    align-items: center;
 
-    @apply flex flex-col items-center;
-}
-
-.photo {
-    width: 40%;
-    z-index: 1;
+    @apply flex flex-col;
 }
 
 .icon {
@@ -27,7 +31,7 @@
 .title {
     font-family: var(--font-robot);
 
-    @apply text-6xl font-black my-6;
+    @apply text-5xl font-black my-6;
 }
 
 .description {
@@ -62,7 +66,17 @@
 
 @media screen and (max-width: 830px) {
     .container {
-        @apply flex-col;
+        gap: 2rem;
+        margin-left: 0;
+        margin-right: 0;
+
+        @apply flex-col mt-10;
+    }
+
+    .photo {
+        z-index: 1;
+
+        @apply w-1/2 h-auto justify-self-center;
     }
 
     .content {
