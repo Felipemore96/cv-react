@@ -2,10 +2,11 @@
 
 .container {
     z-index: 1;
+    margin-top: 10%;
     margin-left: 15%;
     margin-right: 15%;
 
-    @apply relative flex items-center justify-between mb-12 mt-20 h-5/6;
+    @apply relative flex flex-col items-center mb-12 h-5/6;
 }
 
 .title {
@@ -18,4 +19,12 @@
     font-family: var(--font-robot);
 
     @apply text-2xl my-2;
+}
+
+.content {
+    @apply flex gap-24;
+}
+
+.master {
+    @apply p-2;
 }
