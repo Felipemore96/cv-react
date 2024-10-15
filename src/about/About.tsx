@@ -7,6 +7,35 @@ export function About() {
       <p className={styles.initialText}>Get To Know More</p>
       <h1 className={styles.title}>About Me</h1>
       <div className={styles.content}>
+        <div className={styles.aboutList}>
+          <div className={styles.aboutInfo}>
+            <h1 className={styles.location}>
+              <img
+                src={getImageUrl("icons/about/pin.png")}
+                className={styles.pin}
+              />
+              {" " + "Groningen, The Netherlands"}
+            </h1>
+            <p className={styles.description}>
+              Software Developer with a strong foundation in construction
+              management and expertise in Building Information Modeling (BIM). A
+              proactive problem solver, quick to learn, and capable of
+              innovation through web applications development. Skilled in
+              TypeScript and tools such as Vue.js, React.js, Tailwind, and That
+              Open Engine. Fluent in English, Spanish, and Portuguese.
+            </p>
+          </div>
+          <div className={styles.experience}>
+            <div className={styles.jobs}>
+              <p className={styles.masterText}>BIM Software Developer</p>
+              <p className={styles.uniText}>1+ years</p>
+            </div>
+            <div className={styles.jobs}>
+              <p className={styles.masterText}>Construction Engineer</p>
+              <p className={styles.uniText}>2+ years</p>
+            </div>
+          </div>
+        </div>
         <div className={styles.mastersList}>
           <div className={styles.master}>
             <img
@@ -35,33 +64,6 @@ export function About() {
               Bachelor's Degree in Civil Engineering
             </p>
             <p className={styles.uniText}>Universidad de Costa Rica</p>
-          </div>
-        </div>
-        <div className={styles.mastersList}>
-          <h1 className={styles.location}>
-            <img
-              src={getImageUrl("icons/about/pin.png")}
-              className={styles.pin}
-            />
-            {" " + "Groningen, The Netherlands"}
-          </h1>
-          <p className={styles.description}>
-            Software Developer with a strong foundation in construction
-            management and expertise in Building Information Modeling (BIM). A
-            proactive problem solver, quick to learn, and capable of driving
-            innovation through web applications development. Skilled in
-            JavaScript/TypeScript and tools such as Vue.js, React.js, Tailwind,
-            and That Open Engine. Fluent in English, Spanish, and Portuguese.
-          </p>
-          <div className={styles.experience}>
-            <div className={styles.jobs}>
-              <p className={styles.masterText}>BIM Software Developer</p>
-              <p className={styles.uniText}>1+ years</p>
-            </div>
-            <div className={styles.jobs}>
-              <p className={styles.masterText}>Construction Engineer</p>
-              <p className={styles.uniText}>2+ years</p>
-            </div>
           </div>
         </div>
       </div>

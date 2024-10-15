@@ -22,20 +22,26 @@
 }
 
 .content {
-    @apply flex gap-24;
+    @apply flex flex-col gap-6;
 }
 
 .mastersList {
-    max-width: 60%;
+    @apply flex justify-stretch gap-8 ;
+}
 
-    @apply flex flex-col gap-6 mt-10;
+.aboutList {
+    @apply flex justify-between gap-6 mt-10;
+}
+
+.aboutInfo {
+    max-width: 75%;
 }
 
 .master {
     border-color: var(--color-secondary);
 
     @apply p-4 border-2 border-solid rounded-2xl;
-    @apply flex flex-col text-center items-center;
+    @apply flex flex-col text-center items-center w-full;
 }
 
 .icon {
@@ -61,22 +67,22 @@
 
 .location {
     font-family: var(--font-robot);
-    @apply m-1 font-bold text-xl;
+    @apply m-1 font-bold text-2xl;
 }
 
 .description {
     font-family: var(--font-robot);
 
-    @apply text-lg my-2 text-justify;
+    @apply text-xl my-2 text-justify;
 }
 
 .experience {
-    @apply flex justify-evenly gap-8;
+    @apply flex flex-col gap-4;
 }
 
 .jobs {
     border-color: var(--color-secondary);
 
-    @apply p-4 border-2 border-solid rounded-2xl w-full;
-    @apply flex flex-col text-center items-center;
+    @apply p-4 border-2 border-solid rounded-3xl;
+    @apply flex flex-col text-center;
 }
