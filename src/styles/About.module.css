@@ -25,6 +25,25 @@
     @apply flex gap-24;
 }
 
+.mastersList {
+    @apply flex flex-col gap-6 mt-10;
+}
+
 .master {
-    @apply p-2;
+    border-color: var(--color-secondary);
+
+    @apply p-6 border-2 border-solid rounded-2xl;
+    @apply flex flex-col text-center;
+}
+
+.masterText {
+    font-family: var(--font-robot);
+
+    @apply m-1 font-bold;
+}
+
+.uniText {
+    font-family: var(--font-robot);
+
+    @apply m-1;
 }
