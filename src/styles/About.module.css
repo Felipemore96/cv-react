@@ -15,7 +15,7 @@
     @apply text-6xl font-black my-6;
 }
 
-.description {
+.initialText {
     font-family: var(--font-robot);
 
     @apply text-2xl my-2;
@@ -26,6 +26,8 @@
 }
 
 .mastersList {
+    max-width: 60%;
+
     @apply flex flex-col gap-6 mt-10;
 }
 
@@ -50,4 +52,31 @@
     font-family: var(--font-robot);
 
     @apply m-1;
+}
+
+.pin {
+    color: var(--color-primary);
+    @apply w-5;
+}
+
+.location {
+    font-family: var(--font-robot);
+    @apply m-1 font-bold text-xl;
+}
+
+.description {
+    font-family: var(--font-robot);
+
+    @apply text-lg my-2 text-justify;
+}
+
+.experience {
+    @apply flex justify-evenly gap-8;
+}
+
+.jobs {
+    border-color: var(--color-secondary);
+
+    @apply p-4 border-2 border-solid rounded-2xl w-full;
+    @apply flex flex-col text-center items-center;
 }
