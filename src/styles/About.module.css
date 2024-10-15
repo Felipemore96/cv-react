@@ -32,8 +32,12 @@
 .master {
     border-color: var(--color-secondary);
 
-    @apply p-6 border-2 border-solid rounded-2xl;
-    @apply flex flex-col text-center;
+    @apply p-4 border-2 border-solid rounded-2xl;
+    @apply flex flex-col text-center items-center;
+}
+
+.icon {
+    @apply w-8;
 }
 
 .masterText {

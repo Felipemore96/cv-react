@@ -19,14 +19,14 @@ export function Main() {
             href="https://www.linkedin.com/in/felipemoreiras796/"
           >
             <img
-              src={getImageUrl("icons/linkedin.png")}
+              src={getImageUrl("icons/main/linkedin.png")}
               className={styles.icon}
               alt="LinkeIn Profile"
             />
           </a>
           <a className={styles.btnSmall} href="https://github.com/Felipemore96">
             <img
-              src={getImageUrl("icons/github.png")}
+              src={getImageUrl("icons/main/github.png")}
               className={styles.icon}
               alt="LinkeIn Profile"
             />

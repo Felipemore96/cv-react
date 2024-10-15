@@ -15,8 +15,8 @@ export function Nav() {
           className={styles.menuBtn}
           src={
             menuOpen
-              ? getImageUrl("nav/closeIcon.png")
-              : getImageUrl("nav/menuIcon.png")
+              ? getImageUrl("icons/nav/closeIcon.png")
+              : getImageUrl("icons/nav/menuIcon.png")
           }
           alt="menu-button"
           onClick={() => setMenuOpen(!menuOpen)}

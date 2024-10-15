@@ -1,4 +1,5 @@
 import styles from "../styles/About.module.css";
+import { getImageUrl } from "../utils.ts";
 
 export function About() {
   return (
@@ -8,16 +9,28 @@ export function About() {
       <div className={styles.content}>
         <div className={styles.mastersList}>
           <div className={styles.master}>
+            <img
+              src={getImageUrl("icons/about/bimmodel.png")}
+              className={styles.icon}
+            />
             <p className={styles.masterText}>Master BIM Software Developer</p>
             <p className={styles.uniText}>That Open Company</p>
           </div>
           <div className={styles.master}>
+            <img
+              src={getImageUrl("icons/about/bim.png")}
+              className={styles.icon}
+            />
             <p className={styles.masterText}>BIM A+ European Master</p>
             <p className={styles.uniText}>
               University of Ljubljana & University of Minho
             </p>
           </div>
           <div className={styles.master}>
+            <img
+              src={getImageUrl("icons/about/construction.png")}
+              className={styles.icon}
+            />
             <p className={styles.masterText}>
               Bachelor's Degree in Civil Engineering
             </p>
