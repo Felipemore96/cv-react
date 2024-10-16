@@ -1,0 +1,12 @@
+@import "./vars.css";
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10%;
+    z-index: 1;
+    margin-left: 20%;
+    margin-right: 20%;
+}
