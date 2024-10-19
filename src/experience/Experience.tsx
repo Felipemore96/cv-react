@@ -26,6 +26,8 @@ export function Experience() {
               <div className={styles.firstLine}>
                 <div>
                   <h3 className={styles.jobTitle}>{jobsItem.role}</h3>
+                </div>
+                <div>
                   <p className={styles.jobData}>
                     - {jobsItem.modality} - {jobsItem.startDate} to{" "}
                     {jobsItem.endDate}
