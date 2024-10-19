@@ -25,6 +25,10 @@
     @apply text-2xl my-2;
 }
 
+.jobsList {
+    @apply pt-8 flex flex-col gap-8;
+}
+
 .job {
     border-color: var(--color-secondary);
 
@@ -54,5 +58,5 @@
 }
 
 .secondLine {
-    @apply flex;
+    @apply flex flex-row justify-between;
 }

@@ -8,7 +8,7 @@ export function Experience() {
     <section className={styles.container} id="experience">
       <p className={styles.initialText}>Explore My</p>
       <h1 className={styles.title}>Experience</h1>
-      <div>
+      <div className={styles.jobsList}>
         {jobs.map((jobsItem, id) => {
           const skillImages = jobsItem.skills
             .map((jobSkill) => {
