@@ -33,5 +33,22 @@
 }
 
 .icon {
-    @apply w-8;
+    border-color: var(--color-secondary);
+
+    @apply w-8 p-1.5;
+}
+
+.jobTitle {
+    font-family: var(--font-robot);
+    @apply m-1 font-bold text-2xl;
+}
+
+.jobData {
+    font-family: var(--font-robot);
+
+    @apply text-lg my-2 text-justify;
+}
+
+.firstLine {
+    @apply flex;
 }

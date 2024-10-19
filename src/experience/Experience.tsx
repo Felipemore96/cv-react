@@ -24,11 +24,13 @@ export function Experience() {
           return (
             <div className={styles.job} key={id}>
               <div className={styles.firstLine}>
-                <h3>{jobsItem.role} - </h3>
-                <p>
-                  {jobsItem.modality} - {jobsItem.startDate} to{" "}
-                  {jobsItem.endDate}
-                </p>
+                <div>
+                  <h3 className={styles.jobTitle}>{jobsItem.role}</h3>
+                  <p className={styles.jobData}>
+                    - {jobsItem.modality} - {jobsItem.startDate} to{" "}
+                    {jobsItem.endDate}
+                  </p>
+                </div>
                 <div>
                   {skillImages.map((imageUrl, index) => (
                     <img
@@ -41,9 +43,10 @@ export function Experience() {
                 </div>
               </div>
               <div className={styles.secondLine}>
-                <p>
+                <p className={styles.jobData}>
                   {jobsItem.company} - {jobsItem.location}
                 </p>
+                <div className={styles.jobData}>+ info</div>
               </div>
             </div>
           );
