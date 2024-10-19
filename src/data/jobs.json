@@ -13,7 +13,7 @@
       "Integrated techniques and best practices learned during the BIM Software Developer Master's program, continuously advancing product quality and functionality.",
       "Actively communicated and collaborated in a remote environment, participating in team meetings to share insights, address challenges, and streamline development processes."
     ],
-    "skills": ["Tailwind", "That Open Engine", "TypeScript", "Vue", "HTML"]
+    "skills": ["Vue", "Tailwind", "ThatOpenEngine", "TypeScript", "HTML"]
   },
   {
     "role": "Construction Specialist",
@@ -44,6 +44,6 @@
       "Enhanced project quality and efficiency through effective personnel management, quality control, and customer service practices.",
       "Resolved conflicts proactively, fostering a collaborative work environment and driving project success."
     ],
-    "skills": ["AutoCAD", "Microsoft Project"]
+    "skills": ["AutoCAD", "Project"]
   }
 ]

@@ -18,3 +18,20 @@
 
     @apply text-6xl font-black my-6;
 }
+
+.initialText {
+    font-family: var(--font-robot);
+
+    @apply text-2xl my-2;
+}
+
+.job {
+    border-color: var(--color-secondary);
+
+    @apply p-4 border-2 border-solid rounded-2xl;
+    @apply flex flex-col text-center items-center w-full;
+}
+
+.icon {
+    @apply w-8;
+}
