@@ -62,3 +62,16 @@
 .thirdLine {
     @apply flex justify-center;
 }
+
+.button {
+    border-color: var(--color-secondary);
+    transition: background-color 0.3s ease;
+
+    @apply px-2 border-2 border-solid rounded-2xl;
+}
+
+.button:hover {
+    background-color: var(--color-primary);
+    cursor: pointer;
+    border-color: transparent;
+}

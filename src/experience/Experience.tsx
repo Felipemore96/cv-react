@@ -38,7 +38,9 @@ export function Experience() {
                 <p className={styles.jobData}>
                   {jobsItem.company} - {jobsItem.location}
                 </p>
-                <div className={styles.jobData}>+ info</div>
+                <div className={styles.button}>
+                  <p className={styles.jobData}>See Job Details</p>
+                </div>
               </div>
               <div className={styles.thirdLine}>
                 <div>
