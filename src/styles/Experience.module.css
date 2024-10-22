@@ -1,28 +1,25 @@
 @import "./vars.css";
 
 .container {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     margin-top: 10%;
     z-index: 1;
     margin-left: 20%;
     margin-right: 20%;
 
+    @apply relative flex justify-between;
     @apply flex flex-col;
 }
 
 .title {
     font-family: var(--font-robot);
 
-    @apply text-6xl font-black my-6;
+    @apply text-6xl font-black my-6 self-center;
 }
 
 .initialText {
     font-family: var(--font-robot);
 
-    @apply text-2xl my-2;
+    @apply text-2xl my-2 self-center;
 }
 
 .jobsList {
@@ -33,7 +30,7 @@
     border-color: var(--color-secondary);
 
     @apply p-4 border-2 border-solid rounded-2xl;
-    @apply flex flex-col text-center items-center w-full;
+    @apply w-full;
 }
 
 .icon {
@@ -44,6 +41,7 @@
 
 .jobTitle {
     font-family: var(--font-robot);
+
     @apply m-1 font-bold text-2xl;
 }
 
@@ -59,4 +57,8 @@
 
 .secondLine {
     @apply flex flex-row justify-between;
+}
+
+.thirdLine {
+    @apply flex justify-center;
 }

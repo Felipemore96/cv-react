@@ -33,6 +33,14 @@ export function Experience() {
                     {jobsItem.endDate}
                   </p>
                 </div>
+              </div>
+              <div className={styles.secondLine}>
+                <p className={styles.jobData}>
+                  {jobsItem.company} - {jobsItem.location}
+                </p>
+                <div className={styles.jobData}>+ info</div>
+              </div>
+              <div className={styles.thirdLine}>
                 <div>
                   {skillImages.map((imageUrl, index) => (
                     <img
@@ -43,12 +51,6 @@ export function Experience() {
                     />
                   ))}
                 </div>
-              </div>
-              <div className={styles.secondLine}>
-                <p className={styles.jobData}>
-                  {jobsItem.company} - {jobsItem.location}
-                </p>
-                <div className={styles.jobData}>+ info</div>
               </div>
             </div>
           );
