@@ -1,10 +1,10 @@
 @import "./vars.css";
 
 .container {
-    margin-top: 10%;
     z-index: 1;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
 
     @apply relative flex justify-between;
     @apply flex flex-col;
@@ -45,6 +45,30 @@
 }
 
 .projectImage {
-    @apply w-16;
+    @apply w-24;
+}
 
+.icon {
+    @apply w-8 p-1.5;
+}
+
+.iconsLine {
+    @apply flex justify-center;
+}
+
+.buttonsLine {
+    @apply flex justify-center gap-4 mt-2;
+}
+
+.button {
+    border-color: var(--color-secondary);
+    transition: background-color 0.3s ease;
+
+    @apply px-2 border-2 border-solid rounded-2xl;
+}
+
+.button:hover {
+    background-color: var(--color-primary);
+    cursor: pointer;
+    border-color: transparent;
 }
