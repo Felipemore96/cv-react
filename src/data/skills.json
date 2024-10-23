@@ -1,62 +1,77 @@
 [
   {
     "tittle": "AutoCAD",
-    "imageSrc": "icons/skills/autocad.png"
+    "imageSrc": "icons/skills/autocad.png",
+    "url": "https://www.autodesk.com/products/autocad"
   },
   {
     "tittle": "CSS",
-    "imageSrc": "icons/skills/css.png"
+    "imageSrc": "icons/skills/css.png",
+    "url": "https://developer.mozilla.org/docs/Web/CSS"
   },
   {
     "tittle": "Dynamo",
-    "imageSrc": "icons/skills/dynamo.png"
+    "imageSrc": "icons/skills/dynamo.png",
+    "url": "https://dynamobim.org/"
   },
   {
     "tittle": "HTML",
-    "imageSrc": "icons/skills/html.png"
+    "imageSrc": "icons/skills/html.png",
+    "url": "https://developer.mozilla.org/docs/Web/HTML"
   },
   {
     "tittle": "IFC",
-    "imageSrc": "icons/skills/ifc.png"
+    "imageSrc": "icons/skills/ifc.png",
+    "url": "https://www.ifc.org/"
   },
   {
     "tittle": "Navisworks",
-    "imageSrc": "icons/skills/navisworks.png"
+    "imageSrc": "icons/skills/navisworks.png",
+    "url": "https://www.autodesk.com/products/navisworks"
   },
   {
     "tittle": "Project",
-    "imageSrc": "icons/skills/project.png"
+    "imageSrc": "icons/skills/project.png",
+    "url": "https://www.microsoft.com/microsoft-365/project/project-management-software"
   },
   {
     "tittle": "Python",
-    "imageSrc": "icons/skills/python.png"
+    "imageSrc": "icons/skills/python.png",
+    "url": "https://www.python.org/"
   },
   {
     "tittle": "React",
-    "imageSrc": "icons/skills/react.png"
+    "imageSrc": "icons/skills/react.png",
+    "url": "https://react.dev/"
   },
   {
     "tittle": "Revit",
-    "imageSrc": "icons/skills/revit.png"
+    "imageSrc": "icons/skills/revit.png",
+    "url": "https://www.autodesk.com/products/revit"
   },
   {
     "tittle": "Tailwind",
-    "imageSrc": "icons/skills/tailwind.png"
+    "imageSrc": "icons/skills/tailwind.png",
+    "url": "https://tailwindcss.com/"
   },
   {
     "tittle": "ThatOpenEngine",
-    "imageSrc": "icons/skills/thatopenengine.png"
+    "imageSrc": "icons/skills/thatopenengine.png",
+    "url": "https://docs.thatopen.com/"
   },
   {
     "tittle": "Three",
-    "imageSrc": "icons/skills/three.png"
+    "imageSrc": "icons/skills/three.png",
+    "url": "https://threejs.org/"
   },
   {
     "tittle": "TypeScript",
-    "imageSrc": "icons/skills/typescript.png"
+    "imageSrc": "icons/skills/typescript.png",
+    "url": "https://www.typescriptlang.org/"
   },
   {
     "tittle": "Vue",
-    "imageSrc": "icons/skills/vue.png"
+    "imageSrc": "icons/skills/vue.png",
+    "url": "https://vuejs.org/"
   }
 ]
