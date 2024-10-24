@@ -32,6 +32,14 @@
     @apply p-4 border-2 border-solid rounded-2xl;
 }
 
+.bigProject {
+    border-color: var(--color-secondary);
+    /*min-width: 30vw;*/
+
+    @apply p-4 border-2 border-solid rounded-2xl;
+
+}
+
 .mainText {
     font-family: var(--font-robot);
 
