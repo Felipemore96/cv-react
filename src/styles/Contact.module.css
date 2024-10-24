@@ -1,0 +1,40 @@
+@import "./vars.css";
+
+.container {
+    z-index: 1;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+
+    @apply relative flex justify-between;
+    @apply flex flex-col;
+}
+
+.title {
+    font-family: var(--font-robot);
+
+    @apply text-6xl font-black my-6 self-center;
+}
+
+.initialText {
+    font-family: var(--font-robot);
+
+    @apply text-2xl my-2 self-center;
+}
+
+.buttonsLine {
+    @apply flex gap-3 self-center my-10;
+}
+
+.icon {
+    @apply w-16;
+}
+
+.button {
+    background-color: var(--color-primary);
+    font-family: var(--font-robot);
+
+    @apply text-lg no-underline mb-4 rounded-full font-black p-2 cursor-pointer;
+
+    line-height: 0;
+}
