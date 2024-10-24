@@ -16,19 +16,19 @@ export function Main() {
         <div className={styles.secondBtnLine}>
           <a
             className={styles.btnSmall}
-            href="https://www.linkedin.com/in/felipemoreiras796/"
+            href="https://www.linkedin.com/in/felipemore96/"
           >
             <img
               src={getImageUrl("icons/main/linkedin.png")}
               className={styles.icon}
-              alt="LinkeIn Profile"
+              alt="LinkedIn Profile"
             />
           </a>
           <a className={styles.btnSmall} href="https://github.com/Felipemore96">
             <img
               src={getImageUrl("icons/main/github.png")}
               className={styles.icon}
-              alt="LinkeIn Profile"
+              alt="GitHub Profile"
             />
           </a>
         </div>

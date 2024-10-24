@@ -13,17 +13,17 @@
 .title {
     font-family: var(--font-robot);
 
-    @apply text-6xl font-black my-6 self-center;
+    @apply text-6xl font-black my-4 self-center;
 }
 
 .initialText {
     font-family: var(--font-robot);
 
-    @apply text-2xl my-2 self-center;
+    @apply text-2xl my-0.5 self-center;
 }
 
 .buttonsLine {
-    @apply flex gap-3 self-center my-10;
+    @apply flex gap-3 self-center my-6;
 }
 
 .icon {
