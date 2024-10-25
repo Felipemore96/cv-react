@@ -51,13 +51,13 @@
 .masterText {
     font-family: var(--font-robot);
 
-    @apply m-1 font-bold;
+    @apply m-0 font-bold text-sm;
 }
 
 .uniText {
     font-family: var(--font-robot);
 
-    @apply m-1;
+    @apply m-0 text-sm;
 }
 
 .pin {
@@ -83,7 +83,7 @@
 .jobs {
     border-color: var(--color-secondary);
 
-    @apply p-4 border-2 border-solid rounded-full;
+    @apply py-4 px-4 border-2 border-dashed rounded-full;
     @apply flex flex-col text-center;
 }
 

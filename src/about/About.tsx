@@ -9,12 +9,16 @@ export function About() {
       <div className={styles.content}>
         <div className={styles.experience}>
           <div className={styles.jobs}>
-            <p className={styles.masterText}>BIM Software Developer</p>
-            <p className={styles.uniText}>2023 - Present</p>
+            <p className={styles.masterText}>
+              Construction <br /> Engineer
+            </p>
+            <p className={styles.uniText}>2019 - 2022</p>
           </div>
           <div className={styles.jobs}>
-            <p className={styles.masterText}>Construction Engineer</p>
-            <p className={styles.uniText}>2019 - 2022</p>
+            <p className={styles.masterText}>
+              BIM Software <br /> Developer
+            </p>
+            <p className={styles.uniText}>2023 - Present</p>
           </div>
         </div>
         <div className={styles.aboutInfo}>
