@@ -28,8 +28,10 @@
 
 .job {
     border-color: var(--color-secondary);
+    min-width: 50vw;
+    max-width: 850px;
 
-    @apply p-4 border-2 border-solid rounded-2xl;
+    @apply p-4 border-2 border-solid rounded-2xl self-center;
 }
 
 .icon {
@@ -64,7 +66,7 @@
     border-color: var(--color-secondary);
     transition: background-color 0.3s ease;
 
-    @apply px-2 border-2 border-solid rounded-2xl;
+    @apply px-2 border-2 border-solid rounded-2xl ml-52;
 }
 
 .button:hover {
