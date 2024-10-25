@@ -67,7 +67,7 @@
 
 .location {
     font-family: var(--font-robot);
-    @apply m-1 font-bold text-2xl;
+    @apply m-1 font-bold text-xl;
 }
 
 .description {
@@ -77,12 +77,36 @@
 }
 
 .experience {
-    @apply flex flex-col gap-4;
+    @apply flex flex-row gap-4 justify-center;
 }
 
 .jobs {
     border-color: var(--color-secondary);
 
-    @apply p-4 border-2 border-solid rounded-3xl;
+    @apply p-4 border-2 border-solid rounded-full;
     @apply flex flex-col text-center;
 }
+
+
+.skillsSection {
+    @apply flex flex-row gap-8 mt-10;
+}
+
+.skillsList, .languagesList {
+    @apply flex flex-col items-center w-full;
+}
+
+.skillsTitle {
+    font-family: var(--font-robot);
+    @apply text-2xl font-bold my-2;
+}
+
+.skills, .languages {
+    @apply list-none p-0 text-center;
+}
+
+.skills li, .languages li {
+    font-family: var(--font-robot);
+    @apply m-1;
+}
+

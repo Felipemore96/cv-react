@@ -7,35 +7,70 @@ export function About() {
       <p className={styles.initialText}>Get To Know More</p>
       <h1 className={styles.title}>About Me</h1>
       <div className={styles.content}>
-        <div className={styles.aboutList}>
-          <div className={styles.aboutInfo}>
-            <h1 className={styles.location}>
-              <img
-                src={getImageUrl("icons/about/pin.png")}
-                className={styles.pin}
-              />
-              {" " + "Groningen, The Netherlands"}
-            </h1>
-            <p className={styles.description}>
-              Software Developer with a strong foundation in construction
-              management and expertise in Building Information Modeling (BIM). A
-              proactive problem solver, quick to learn, and capable of
-              innovation through web applications development. Skilled in
-              TypeScript and tools such as Vue.js, React.js, Tailwind, and That
-              Open Engine. Fluent in English, Spanish, and Portuguese.
-            </p>
+        <div className={styles.experience}>
+          <div className={styles.jobs}>
+            <p className={styles.masterText}>BIM Software Developer</p>
+            <p className={styles.uniText}>2023 - Present</p>
           </div>
-          <div className={styles.experience}>
-            <div className={styles.jobs}>
-              <p className={styles.masterText}>BIM Software Developer</p>
-              <p className={styles.uniText}>1+ years</p>
-            </div>
-            <div className={styles.jobs}>
-              <p className={styles.masterText}>Construction Engineer</p>
-              <p className={styles.uniText}>2+ years</p>
-            </div>
+          <div className={styles.jobs}>
+            <p className={styles.masterText}>Construction Engineer</p>
+            <p className={styles.uniText}>2019 - 2022</p>
           </div>
         </div>
+        <div className={styles.aboutInfo}>
+          <p className={styles.description}>
+            Hey there! I'm Felipe, a software developer with a background in
+            construction engineering. I started out managing projects in the
+            real world and eventually found my way into the digital side of
+            things. These days, I'm all about building web applications for the
+            AEC (Architecture, Engineering, and Construction) industry, where I
+            can blend my love for technology and my engineering experience.
+            <br />
+            <br />
+            I’m passionate about solving tricky problems and always eager to
+            learn something new. Whether it's developing tools to make workflows
+            smoother or exploring the latest tech trends, I enjoy the challenge
+            of bridging the gap between traditional practices and modern
+            solutions.
+            <br />
+            <br />
+            Thanks for stopping by! Feel free to explore my projects, and don't
+            hesitate to reach out if you want to chat or share ideas.
+          </p>
+          <h1 className={styles.location}>
+            <img
+              src={getImageUrl("icons/about/pin.png")}
+              className={styles.pin}
+            />
+            {" " + "Groningen, The Netherlands"}
+          </h1>
+        </div>
+
+        {/* Relocated Experience Section */}
+
+        {/* Skills and Languages Section */}
+        <div className={styles.skillsSection}>
+          <div className={styles.skillsList}>
+            <h2 className={styles.skillsTitle}>Skills</h2>
+            <ul className={styles.skills}>
+              <li>TypeScript (Advanced)</li>
+              <li>React.js (Intermediate)</li>
+              <li>Vue.js (Intermediate)</li>
+              <li>Tailwind (Intermediate)</li>
+              <li>That Open Engine (Basic)</li>
+            </ul>
+          </div>
+          <div className={styles.languagesList}>
+            <h2 className={styles.skillsTitle}>Languages</h2>
+            <ul className={styles.languages}>
+              <li>English (Fluent)</li>
+              <li>Spanish (Native)</li>
+              <li>Portuguese (Conversational)</li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Education Section */}
         <div className={styles.mastersList}>
           <div className={styles.master}>
             <img
