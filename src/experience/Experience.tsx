@@ -2,8 +2,19 @@ import styles from "../styles/Experience.module.css";
 import skills from "../../src/data/skills.json";
 import jobs from "../../src/data/jobs.json";
 import { getImageUrl } from "../utils.ts";
+import { JobDetails } from "./JobDetails";
+import { useState } from "react";
 
 export function Experience() {
+  const [selectedJob, setSelectedJob] = useState(null);
+
+  const handleJobClick = (job) => {
+    setSelectedJob(job);
+  };
+
+  const closeJobDetails = () => {
+    setSelectedJob(null);
+  };
   return (
     <section className={styles.container} id="experience">
       <p className={styles.initialText}>Explore My</p>
@@ -38,7 +49,10 @@ export function Experience() {
                 <p className={styles.jobData}>
                   {jobsItem.company} - {jobsItem.location}
                 </p>
-                <div className={styles.button}>
+                <div
+                  className={styles.button}
+                  onClick={() => handleJobClick(jobsItem)}
+                >
                   <p className={styles.jobData}>See Job Details</p>
                 </div>
               </div>
@@ -58,6 +72,9 @@ export function Experience() {
           );
         })}
       </div>
+      {selectedJob && (
+        <JobDetails job={selectedJob} onClose={closeJobDetails} />
+      )}
     </section>
   );
 }
