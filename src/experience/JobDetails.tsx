@@ -21,14 +21,14 @@ export function JobDetails({ job, onClose }: JobDetailsProps) {
           ×
         </button>
         <h2 className={styles.jobTitle}>{job.role}</h2>
-        <p className={styles.jobInfo}>
+        <p className={styles.jobData}>
           {job.company} - {job.location}
         </p>
-        <p className={styles.jobInfo}>
+        <p className={styles.jobData}>
           {job.modality} - {job.startDate} to {job.endDate}
         </p>
-        <h3 className={styles.experienceTitle}>Experiences:</h3>
-        <ul className={styles.experienceList}>
+        <h3 className={styles.jobDetails}>Experiences:</h3>
+        <ul className={styles.jobDetails}>
           {job.experiences.map((experience, index) => (
             <li key={index} className={styles.experienceItem}>
               {experience}

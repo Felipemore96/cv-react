@@ -41,7 +41,7 @@
 .jobTitle {
     font-family: var(--font-robot);
 
-    @apply m-1 font-bold text-2xl;
+    @apply my-1 font-bold text-2xl;
 }
 
 .jobData {
@@ -78,51 +78,33 @@
 /* JobDetails.module.css */
 .modalOverlay {
     background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
 
     @apply fixed flex justify-center items-center;
     @apply inset-0 z-50;
 }
 
 .modalContent {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    width: 80%;
+    background-color: var(--color-bg);
     max-width: 600px;
-    position: relative;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    @apply p-10 rounded-2xl relative;
 }
 
 .closeButton {
-    position: absolute;
     top: 10px;
     right: 10px;
-    background: none;
-    border: none;
-    font-size: 1.5em;
-    cursor: pointer;
+
+    @apply cursor-pointer absolute bg-none border-none;
+    @apply text-3xl;
 }
 
-.jobTitle {
-    font-size: 1.8em;
-    margin-bottom: 10px;
-}
+.jobDetails {
+    font-family: var(--font-robot);
 
-.jobInfo {
-    font-size: 1em;
-    margin-bottom: 10px;
-}
-
-.experienceTitle {
-    font-size: 1.2em;
-    margin-top: 20px;
-}
-
-.experienceList {
-    list-style: none;
-    padding: 0;
+    @apply text-base my-2 text-justify;
 }
 
 .experienceItem {
-    margin-bottom: 8px;
+    @apply mb-2;
 }
