@@ -10,8 +10,19 @@ export function Main() {
         <h1 className={styles.title}>Felipe Moreira</h1>
         <p className={styles.description}>BIM Software Developer</p>
         <div className={styles.firstBtnLine}>
-          <a className={styles.btnLarge}>Download CV</a>
-          <a className={styles.btnLarge}>Contact Me</a>
+          <a
+            className={styles.btnLarge}
+            href="../../assets/docs/CVFelipeMoreiraENG.pdf"
+            download="CVFelipeMoreiraENG.pdf"
+          >
+            Download CV
+          </a>
+          <a
+            className={styles.btnLarge}
+            href="https://www.linkedin.com/in/felipemore96/"
+          >
+            Contact Me
+          </a>
         </div>
         <div className={styles.secondBtnLine}>
           <a
