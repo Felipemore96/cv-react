@@ -106,21 +106,21 @@
   },
   {
     "title": "English",
-    "imageSrc": "",
+    "imageSrc": "icons/langs/english.png",
     "url": "",
     "level":  "1",
     "type": "lang"
   },
   {
     "title": "Spanish",
-    "imageSrc": "",
+    "imageSrc": "icons/langs/spanish.png",
     "url": "",
     "level":  "1",
     "type": "lang"
   },
   {
     "title": "Portuguese",
-    "imageSrc": "",
+    "imageSrc": "icons/langs/portuguese.png",
     "url": "",
     "level":  "0.8",
     "type": "lang"
