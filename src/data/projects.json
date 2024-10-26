@@ -1,0 +1,59 @@
+[
+  {
+    "organization": "Master BIM Software Developer's Challenge",
+    "name": "Web-based Application to Manage BIM Projects",
+    "description": "Developed a comprehensive web application to manage projects and teams using React components and a Firebase database. Integrated an IFC viewer using the That Open Engine library to interact with building models and project data in realtime.",
+    "photo": "photos/bimsoftdevchallenge.png",
+    "skills": ["ThatOpenEngine", "React", "TypeScript", "IFC", "HTML", "CSS"],
+    "button1": [
+      {
+        "text": "GitHub Repo",
+        "link": "https://github.com/Felipemore96/that-open-master-challenge"
+      }
+    ],
+    "button2": [
+      {
+        "text": "LinkedIn Demo",
+        "link": "https://www.linkedin.com/feed/update/urn:li:activity:7236376079555342339/"
+      }
+    ]
+  },
+  {
+    "organization": "",
+    "name": "",
+    "description": "",
+    "photo": "",
+    "skills": [],
+    "button1": [
+      {
+        "text": "",
+        "link": ""
+      }
+    ],
+    "button2": [
+      {
+        "text": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "organization": "",
+    "name": "",
+    "description": "",
+    "photo": "",
+    "skills": [],
+    "button1": [
+      {
+        "text": "",
+        "link": ""
+      }
+    ],
+    "button2": [
+      {
+        "text": "",
+        "link": ""
+      }
+    ]
+  }
+]

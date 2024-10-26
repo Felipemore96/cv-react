@@ -125,7 +125,9 @@ export function About() {
               className={styles.icon}
             />
             <h2 className={styles.masterText}>Programming Skills</h2>
-            <p className={styles.uniText}>{renderSkills(sortedSkills.prog)}</p>
+            <div className={styles.uniText}>
+              {renderSkills(sortedSkills.prog)}
+            </div>
           </div>
           <div className={styles.master}>
             <img
@@ -133,7 +135,9 @@ export function About() {
               className={styles.icon}
             />
             <h2 className={styles.masterText}>BIM Skills</h2>
-            <p className={styles.uniText}>{renderSkills(sortedSkills.bim)}</p>
+            <div className={styles.uniText}>
+              {renderSkills(sortedSkills.bim)}
+            </div>
           </div>
           <div className={styles.master}>
             <img
@@ -141,7 +145,9 @@ export function About() {
               className={styles.icon}
             />
             <h2 className={styles.masterText}>Languages</h2>
-            <p className={styles.uniText}>{renderSkills(sortedSkills.lang)}</p>
+            <div className={styles.uniText}>
+              {renderSkills(sortedSkills.lang)}
+            </div>
           </div>
         </div>
       </div>

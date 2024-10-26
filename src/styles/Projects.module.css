@@ -52,12 +52,19 @@
     @apply m-1;
 }
 
+.btnText {
+    font-family: var(--font-robot);
+    color: var(--color-text);
+
+    @apply text-base my-1 text-justify list-none no-underline;
+}
+
 .projectImage {
-    @apply w-24;
+    @apply w-full;
 }
 
 .icon {
-    @apply w-8 p-1.5;
+    @apply w-8 h-8 p-1.5;
 }
 
 .iconsLine {
