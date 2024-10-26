@@ -1,7 +1,29 @@
 import styles from "../styles/About.module.css";
+import skills from "../../src/data/skills.json";
 import { getImageUrl } from "../utils.ts";
 
 export function About() {
+  const sortedSkills = {
+    bim: skills
+      .filter((skill) => skill.type === "bim")
+      .sort((a, b) => b.level - a.level),
+    prog: skills
+      .filter((skill) => skill.type === "prog")
+      .sort((a, b) => b.level - a.level),
+    lang: skills
+      .filter((skill) => skill.type === "lang")
+      .sort((a, b) => b.level - a.level),
+  };
+
+  const renderSkills = (skillsList) =>
+    skillsList.map((skill, index) => (
+      <li key={index}>
+        <a href={skill.url || "#"} target="_blank" rel="noopener noreferrer">
+          {skill.tittle} ({Math.round(skill.level * 100)}%)
+        </a>
+      </li>
+    ));
+
   return (
     <section className={styles.container} id="about">
       <p className={styles.initialText}>Get To Know More</p>
@@ -51,26 +73,6 @@ export function About() {
               {" " + "Groningen, The Netherlands"}
             </h1>
           </div>
-          <div className={styles.skillsSection}>
-            <div className={styles.skillsList}>
-              <h2 className={styles.skillsTitle}>Skills</h2>
-              <ul className={styles.skills}>
-                <li>TypeScript (Advanced)</li>
-                <li>React.js (Intermediate)</li>
-                <li>Vue.js (Intermediate)</li>
-                <li>Tailwind (Intermediate)</li>
-                <li>That Open Engine (Basic)</li>
-              </ul>
-            </div>
-            <div className={styles.languagesList}>
-              <h2 className={styles.skillsTitle}>Languages</h2>
-              <ul className={styles.languages}>
-                <li>English (Fluent)</li>
-                <li>Spanish (Native)</li>
-                <li>Portuguese (Conversational)</li>
-              </ul>
-            </div>
-          </div>
         </div>
         <div className={styles.mastersList}>
           <div className={styles.master}>
@@ -100,6 +102,20 @@ export function About() {
               Bachelor's Degree in Civil Engineering
             </p>
             <p className={styles.uniText}>Universidad de Costa Rica</p>
+          </div>
+        </div>
+        <div className={styles.mastersList}>
+          <div className={styles.master}>
+            <h2 className={styles.masterText}>BIM Skills</h2>
+            <p className={styles.uniText}>{renderSkills(sortedSkills.bim)}</p>
+          </div>
+          <div className={styles.master}>
+            <h2 className={styles.masterText}>Programming Skills</h2>
+            <p className={styles.uniText}>{renderSkills(sortedSkills.prog)}</p>
+          </div>
+          <div className={styles.master}>
+            <h2 className={styles.masterText}>Languages</h2>
+            <p className={styles.uniText}>{renderSkills(sortedSkills.lang)}</p>
           </div>
         </div>
       </div>

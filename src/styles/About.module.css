@@ -38,7 +38,6 @@
 }
 
 .aboutInfo {
-    max-width: 75%;
 }
 
 .master {
@@ -61,7 +60,7 @@
 .uniText {
     font-family: var(--font-robot);
 
-    @apply m-0 text-sm;
+    @apply m-0 text-sm list-none;
 }
 
 .pin {
@@ -93,24 +92,15 @@
 
 
 .skillsSection {
-    @apply flex flex-col gap-8;
+    @apply flex flex-col;
 }
 
-.skillsList, .languagesList {
-    @apply flex flex-col items-center w-full;
-}
+/*.skills, .languages {*/
+/*    @apply list-none p-0 text-center;*/
+/*}*/
 
-.skillsTitle {
-    font-family: var(--font-robot);
-    @apply text-2xl font-bold my-2;
-}
-
-.skills, .languages {
-    @apply list-none p-0 text-center;
-}
-
-.skills li, .languages li {
-    font-family: var(--font-robot);
-    @apply m-1;
-}
+/*.skills li, .languages li {*/
+/*    font-family: var(--font-robot);*/
+/*    @apply m-1;*/
+/*}*/
 
