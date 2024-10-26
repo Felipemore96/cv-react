@@ -18,7 +18,12 @@ export function About() {
   const renderSkills = (skillsList) =>
     skillsList.map((skill, index) => (
       <li key={index}>
-        <a href={skill.url || "#"} target="_blank" rel="noopener noreferrer">
+        <a
+          className={styles.uniText}
+          href={skill.url || "#"}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           {skill.tittle} ({Math.round(skill.level * 100)}%)
         </a>
       </li>

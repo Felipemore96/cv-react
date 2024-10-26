@@ -59,8 +59,9 @@
 
 .uniText {
     font-family: var(--font-robot);
+    color: var(--color-text);
 
-    @apply m-0 text-sm list-none;
+    @apply m-0 text-sm list-none no-underline cursor-pointer;
 }
 
 .pin {
@@ -94,13 +95,3 @@
 .skillsSection {
     @apply flex flex-col;
 }
-
-/*.skills, .languages {*/
-/*    @apply list-none p-0 text-center;*/
-/*}*/
-
-/*.skills li, .languages li {*/
-/*    font-family: var(--font-robot);*/
-/*    @apply m-1;*/
-/*}*/
-
