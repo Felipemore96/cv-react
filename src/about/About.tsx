@@ -17,15 +17,24 @@ export function About() {
 
   const renderSkills = (skillsList) =>
     skillsList.map((skill, index) => (
-      <li key={index}>
-        <a
-          className={styles.uniText}
-          href={skill.url || "#"}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {skill.tittle} ({Math.round(skill.level * 100)}%)
-        </a>
+      <li key={index} className={styles.skillLine}>
+        <div className={styles.skill}>
+          <img src={getImageUrl(skill.imageSrc)} className={styles.skillIcon} />
+          <a
+            className={styles.uniText}
+            href={skill.url || "#"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {skill.title}
+          </a>
+        </div>
+        <div className={styles.progressBarContainer}>
+          <div
+            className={styles.progressBar}
+            style={{ width: `${Math.round(skill.level * 100)}%` }}
+          ></div>
+        </div>
       </li>
     ));
 

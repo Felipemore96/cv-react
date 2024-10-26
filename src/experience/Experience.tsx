@@ -25,8 +25,7 @@ export function Experience() {
             .map((jobSkill) => {
               // Find the matching skill in skills.json
               const skillData = skills.find(
-                (skill) =>
-                  skill.tittle.toLowerCase() === jobSkill.toLowerCase(),
+                (skill) => skill.title.toLowerCase() === jobSkill.toLowerCase(),
               );
               // If a match is found, return the image URL
               return skillData ? getImageUrl(skillData.imageSrc) : null;

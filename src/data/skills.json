@@ -1,125 +1,125 @@
 [
   {
-    "tittle": "AutoCAD",
+    "title": "AutoCAD",
     "imageSrc": "icons/skills/autocad.png",
     "url": "https://www.autodesk.com/products/autocad",
     "level": "1",
     "type": "bim"
   },
   {
-    "tittle": "CSS",
+    "title": "CSS",
     "imageSrc": "icons/skills/css.png",
     "url": "https://developer.mozilla.org/docs/Web/CSS",
     "level":  "1",
     "type": "prog"
   },
   {
-    "tittle": "Dynamo",
+    "title": "Dynamo",
     "imageSrc": "icons/skills/dynamo.png",
     "url": "https://dynamobim.org/",
     "level":  "0.8",
     "type": "bim"
   },
   {
-    "tittle": "HTML",
+    "title": "HTML",
     "imageSrc": "icons/skills/html.png",
     "url": "https://developer.mozilla.org/docs/Web/HTML",
     "level":  "1",
     "type": "prog"
   },
   {
-    "tittle": "IFC",
+    "title": "IFC",
     "imageSrc": "icons/skills/ifc.png",
     "url": "https://www.ifc.org/",
     "level":  "0.6",
     "type": "bim"
   },
   {
-    "tittle": "Navisworks",
+    "title": "Navisworks",
     "imageSrc": "icons/skills/navisworks.png",
     "url": "https://www.autodesk.com/products/navisworks",
     "level":  "0.3",
     "type": "bim"
   },
   {
-    "tittle": "Project",
+    "title": "Project",
     "imageSrc": "icons/skills/project.png",
     "url": "https://www.microsoft.com/microsoft-365/project/project-management-software",
     "level":  "0.9",
     "type": "bim"
   },
   {
-    "tittle": "Python",
+    "title": "Python",
     "imageSrc": "icons/skills/python.png",
     "url": "https://www.python.org/",
     "level":  "0.4",
     "type": "prog"
   },
   {
-    "tittle": "React",
+    "title": "React",
     "imageSrc": "icons/skills/react.png",
     "url": "https://react.dev/",
     "level":  "0.8",
     "type": "prog"
   },
   {
-    "tittle": "Revit",
+    "title": "Revit",
     "imageSrc": "icons/skills/revit.png",
     "url": "https://www.autodesk.com/products/revit",
     "level":  "0.9",
     "type": "bim"
   },
   {
-    "tittle": "Tailwind",
+    "title": "Tailwind",
     "imageSrc": "icons/skills/tailwind.png",
     "url": "https://tailwindcss.com/",
     "level":  "0.9",
     "type": "prog"
   },
   {
-    "tittle": "ThatOpenEngine",
+    "title": "ThatOpenEngine",
     "imageSrc": "icons/skills/thatopenengine.png",
     "url": "https://docs.thatopen.com/",
     "level":  "0.6",
     "type": "prog"
   },
   {
-    "tittle": "Three",
+    "title": "Three",
     "imageSrc": "icons/skills/three.png",
     "url": "https://threejs.org/",
     "level":  "0.3",
     "type": "prog"
   },
   {
-    "tittle": "TypeScript",
+    "title": "TypeScript",
     "imageSrc": "icons/skills/typescript.png",
     "url": "https://www.typescriptlang.org/",
     "level":  "1",
     "type": "prog"
   },
   {
-    "tittle": "Vue",
+    "title": "Vue",
     "imageSrc": "icons/skills/vue.png",
     "url": "https://vuejs.org/",
     "level":  "0.4",
     "type": "prog"
   },
   {
-    "tittle": "English",
+    "title": "English",
     "imageSrc": "",
     "url": "",
     "level":  "1",
     "type": "lang"
   },
   {
-    "tittle": "Spanish",
+    "title": "Spanish",
     "imageSrc": "",
     "url": "",
     "level":  "1",
     "type": "lang"
   },
   {
-    "tittle": "Portuguese",
+    "title": "Portuguese",
     "imageSrc": "",
     "url": "",
     "level":  "0.8",
