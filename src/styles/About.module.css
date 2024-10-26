@@ -33,6 +33,10 @@
     @apply flex justify-between gap-6 mt-10;
 }
 
+.about {
+    @apply flex flex-row justify-between;
+}
+
 .aboutInfo {
     max-width: 75%;
 }
@@ -67,7 +71,7 @@
 
 .location {
     font-family: var(--font-robot);
-    @apply m-1 font-bold text-xl;
+    @apply mx-0 mt-5 mb-0 font-bold text-xl;
 }
 
 .description {
@@ -89,7 +93,7 @@
 
 
 .skillsSection {
-    @apply flex flex-row gap-8 mt-10;
+    @apply flex flex-col gap-8;
 }
 
 .skillsList, .languagesList {
