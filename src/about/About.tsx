@@ -120,12 +120,12 @@ export function About() {
         </div>
         <div className={styles.mastersList}>
           <div className={styles.master}>
-            <h2 className={styles.masterText}>BIM Skills</h2>
-            <p className={styles.uniText}>{renderSkills(sortedSkills.bim)}</p>
-          </div>
-          <div className={styles.master}>
             <h2 className={styles.masterText}>Programming Skills</h2>
             <p className={styles.uniText}>{renderSkills(sortedSkills.prog)}</p>
+          </div>
+          <div className={styles.master}>
+            <h2 className={styles.masterText}>BIM Skills</h2>
+            <p className={styles.uniText}>{renderSkills(sortedSkills.bim)}</p>
           </div>
           <div className={styles.master}>
             <h2 className={styles.masterText}>Languages</h2>
