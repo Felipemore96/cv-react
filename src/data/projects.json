@@ -19,21 +19,21 @@
     ]
   },
   {
-    "organization": "",
-    "name": "",
-    "description": "",
-    "photo": "",
-    "skills": [],
+    "organization": "BIM A+ European Master's Thesis",
+    "name": "AR-enhanced collaborative environment for Facility Management supported by OpenBIM",
+    "description": "Created an AR-based application to integrate BIM with AR, enhancing collaboration and productivity in construction by leveraging WebXR with IFC.",
+    "photo": "photos/thesis.jpg",
+    "skills": ["Three", "Revit", "TypeScript", "HTML", "IFC"],
     "button1": [
       {
-        "text": "",
-        "link": ""
+        "text": "GitHub Repo",
+        "link": "https://github.com/Felipemore96/BIM-A-Dissertation"
       }
     ],
     "button2": [
       {
-        "text": "",
-        "link": ""
+        "text": "PDF Document",
+        "link": "https://github.com/Felipemore96/BIM-A-Dissertation/blob/main/BIM%20Aplus%20Dissertation%20Felipe%20Moreira.pdf"
       }
     ]
   },
