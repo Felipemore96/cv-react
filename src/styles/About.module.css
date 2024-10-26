@@ -41,6 +41,7 @@
 }
 
 .master {
+    background-color: white;
     border-color: var(--color-secondary);
 
     @apply p-4 border-2 border-solid rounded-2xl;
@@ -58,14 +59,14 @@
 .masterText {
     font-family: var(--font-robot);
 
-    @apply m-0 font-bold text-sm;
+    @apply m-0 font-bold text-base;
 }
 
 .uniText {
     font-family: var(--font-robot);
     color: var(--color-text);
 
-    @apply m-0 text-sm list-none no-underline cursor-pointer;
+    @apply mt-2 mx-0 mb-0 text-sm list-none no-underline cursor-pointer;
 }
 
 .pin {
@@ -89,6 +90,7 @@
 }
 
 .jobs {
+    background-color: white;
     border-color: var(--color-secondary);
 
     @apply py-4 px-4 border-2 border-dashed rounded-full;
