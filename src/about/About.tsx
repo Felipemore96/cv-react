@@ -5,13 +5,13 @@ import { getImageUrl } from "../utils.ts";
 export function About() {
   const sortedSkills = {
     bim: skills
-      .filter((skill) => skill.type === "bim")
+      .filter((skill) => skill.type === "bim" && skill.show)
       .sort((a, b) => b.level - a.level),
     prog: skills
-      .filter((skill) => skill.type === "prog")
+      .filter((skill) => skill.type === "prog" && skill.show)
       .sort((a, b) => b.level - a.level),
     lang: skills
-      .filter((skill) => skill.type === "lang")
+      .filter((skill) => skill.type === "lang" && skill.show)
       .sort((a, b) => b.level - a.level),
   };
 

@@ -3,7 +3,7 @@
     "title": "AutoCAD",
     "imageSrc": "icons/skills/autocad.png",
     "url": "https://www.autodesk.com/products/autocad",
-    "level": "1",
+    "level": "0.85",
     "type": "bim",
     "show": true
   },
@@ -27,7 +27,7 @@
     "title": "HTML",
     "imageSrc": "icons/skills/html.png",
     "url": "https://developer.mozilla.org/docs/Web/HTML",
-    "level": "0.95",
+    "level": "0.85",
     "type": "prog",
     "show": true
   },
@@ -37,7 +37,7 @@
     "url": "https://www.ifc.org/",
     "level": "0.6",
     "type": "bim",
-    "show": true
+    "show": false
   },
   {
     "title": "Navisworks",
@@ -51,7 +51,7 @@
     "title": "Project",
     "imageSrc": "icons/skills/project.png",
     "url": "https://www.microsoft.com/microsoft-365/project/project-management-software",
-    "level": "0.9",
+    "level": "0.85",
     "type": "bim",
     "show": true
   },
@@ -83,7 +83,7 @@
     "title": "Tailwind",
     "imageSrc": "icons/skills/tailwind.png",
     "url": "https://tailwindcss.com/",
-    "level": "0.9",
+    "level": "0.87",
     "type": "prog",
     "show": true
   },
@@ -107,7 +107,7 @@
     "title": "TypeScript",
     "imageSrc": "icons/skills/typescript.png",
     "url": "https://www.typescriptlang.org/",
-    "level": "1",
+    "level": "0.9",
     "type": "prog",
     "show": true
   },
