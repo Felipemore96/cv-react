@@ -32,24 +32,20 @@
     @apply p-4 border-2 border-solid rounded-2xl;
 }
 
-.bigProject {
-    border-color: var(--color-secondary);
-    /*min-width: 30vw;*/
-
-    @apply p-4 border-2 border-solid rounded-2xl;
-
-}
-
 .mainText {
     font-family: var(--font-robot);
 
-    @apply m-1 font-bold;
+    @apply text-xl my-1.5 font-bold;
 }
 
 .smallText {
     font-family: var(--font-robot);
 
-    @apply m-1;
+    @apply text-base my-1 text-justify;
+}
+
+.projectDescription {
+    height: 180px;
 }
 
 .btnText {
@@ -60,7 +56,9 @@
 }
 
 .projectImage {
-    @apply w-full;
+    width: 18vw;
+
+    @apply self-center;
 }
 
 .icon {

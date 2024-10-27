@@ -9,17 +9,12 @@ export function Projects() {
       <h1 className={styles.title}>Projects</h1>
       <div className={styles.projectsList}>
         {projects.map((project, index) => (
-          <div
-            key={index}
-            className={
-              project.skills.length > 3
-                ? styles.bigProject
-                : styles.smallProject
-            }
-          >
+          <div key={index} className={styles.smallProject}>
             <p className={styles.smallText}>{project.organization}</p>
             <p className={styles.mainText}>{project.name}</p>
-            <p className={styles.smallText}>{project.description}</p>
+            <div className={styles.projectDescription}>
+              <p className={styles.smallText}>{project.description}</p>
+            </div>
             {project.photo && (
               <img
                 src={getImageUrl(project.photo)}
