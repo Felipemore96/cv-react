@@ -67,17 +67,22 @@ export function About() {
               the AEC (Architecture, Engineering, and Construction) industry,
               where I can blend my love for technology and my engineering
               experience.
-              <br />
-              <br />
-              I’m passionate about solving tricky problems and always eager to
-              learn something new. Whether it's developing tools to make
-              workflows smoother or exploring the latest tech trends, I enjoy
-              the challenge of bridging the gap between traditional practices
-              and modern solutions.
-              <br />
-              <br />
-              Thanks for stopping by! Feel free to explore my projects, and
-              don't hesitate to reach out if you want to chat or share ideas.
+              {window.innerWidth > 600 && (
+                <>
+                  <br />
+                  <br />
+                  I’m passionate about solving tricky problems and always eager
+                  to learn something new. Whether it's developing tools to make
+                  workflows smoother or exploring the latest tech trends, I
+                  enjoy the challenge of bridging the gap between traditional
+                  practices and modern solutions.
+                  <br />
+                  <br />
+                  Thanks for stopping by! Feel free to explore my projects, and
+                  don't hesitate to reach out if you want to chat or share
+                  ideas.
+                </>
+              )}
             </p>
             <h1 className={styles.location}>
               <img

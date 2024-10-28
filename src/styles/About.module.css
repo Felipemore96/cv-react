@@ -38,6 +38,7 @@
 }
 
 .aboutInfo {
+    @apply content-center;
 }
 
 .master {
@@ -126,4 +127,21 @@
 
 .skill {
     @apply flex gap-2 items-center;
+}
+
+@media screen and (max-width: 830px) {
+    .container {
+        margin-left: 0;
+        margin-right: 0;
+
+        @apply mt-10;
+    }
+
+    .content {
+        @apply items-center;
+    }
+
+    .description {
+        @apply text-base;
+    }
 }
