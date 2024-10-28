@@ -10,14 +10,10 @@ export function Projects() {
       <div className={styles.projectsList}>
         {projects.map((project, index) => (
           <div key={index} className={styles.smallProject}>
-            <p className={styles.mainText}>{project.name}</p>
-            <p className={styles.smallText}>{project.organization}</p>
             <div className={styles.projectDescription}>
-              <p className={styles.smallText}>
-                {project.description.length > 150
-                  ? `${project.description.substring(0, 147)}...`
-                  : project.description}
-              </p>
+              <p className={styles.mainText}>{project.name}</p>
+              <p className={styles.smallText}>{project.organization}</p>
+              <p className={styles.smallText}>{project.description}</p>
             </div>
             {project.photo && (
               <img

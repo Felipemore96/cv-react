@@ -45,9 +45,7 @@
 }
 
 .projectDescription {
-    height: 100px; /* Adjust the value as needed */
-    overflow: hidden;
-    text-overflow: ellipsis;
+    height: 250px;
     @apply my-2;
 }
 
@@ -61,17 +59,20 @@
 .projectImage {
     width: 18vw;
     height: 150px;
-    object-fit: cover;
-    @apply self-center;
+
+    @apply self-center object-cover my-2;
 }
 
 .icon {
-    @apply w-8 h-8 p-1.5;
+    @apply h-8 p-1.5;
 }
 
-.iconsLine, .buttonsLine {
-    margin-top: auto; /* Push content to the bottom */
-    @apply flex justify-center;
+.iconsLine {
+    @apply flex justify-center gap-0.5 mt-auto mb-2;
+}
+
+.buttonsLine {
+    @apply flex justify-center mt-auto gap-2;
 }
 
 
