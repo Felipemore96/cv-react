@@ -26,7 +26,7 @@
 }
 
 .mastersList {
-    @apply flex justify-stretch gap-8 ;
+    @apply flex gap-8 ;
 }
 
 .aboutList {
@@ -110,7 +110,7 @@
 .progressBarContainer {
     background-color: var(--color-secondary);
     border-radius: 8px;
-    width: 120px;
+    min-width: 80px;
     height: 8px;
     margin-top: 4px;
 }
@@ -144,11 +144,23 @@
         @apply items-center;
     }
 
+    .title {
+        @apply text-4xl pt-0 pb-2;
+    }
+
+    .initialText {
+        @apply text-lg;
+    }
+
     .description {
-        @apply text-base;
+        @apply text-base m-2;
+    }
+
+    .location {
+        @apply text-base mt-2;
     }
 
     .mastersList {
-        @apply flex-col gap-8 ;
+        @apply flex-col gap-8;
     }
 }
