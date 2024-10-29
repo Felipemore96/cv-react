@@ -6,19 +6,19 @@
     margin-left: 15%;
     margin-right: 15%;
 
-    @apply relative flex flex-col items-center mb-12 h-5/6;
+    @apply relative flex flex-col mb-12 h-5/6;
 }
 
 .title {
     font-family: var(--font-robot);
 
-    @apply text-6xl font-black my-6;
+    @apply text-6xl font-black my-6 self-center;
 }
 
 .initialText {
     font-family: var(--font-robot);
 
-    @apply text-2xl my-2;
+    @apply text-2xl my-2 self-center;
 }
 
 .content {
@@ -138,10 +138,17 @@
     }
 
     .content {
+        margin-left: 0;
+        margin-right: 0;
+
         @apply items-center;
     }
 
     .description {
         @apply text-base;
+    }
+
+    .mastersList {
+        @apply flex-col gap-8 ;
     }
 }
