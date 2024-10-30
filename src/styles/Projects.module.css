@@ -46,8 +46,7 @@
 }
 
 .projectDescription {
-    height: 250px;
-    @apply my-2;
+    @apply my-2 h-auto;
 }
 
 .btnText {
