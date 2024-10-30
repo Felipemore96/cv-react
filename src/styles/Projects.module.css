@@ -129,4 +129,8 @@
     .projectDescription {
         @apply h-auto my-0;
     }
+
+    .icon {
+        @apply h-6 p-1;
+    }
 }
