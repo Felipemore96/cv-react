@@ -27,7 +27,7 @@
 }
 
 .job {
-    border-color: var(--color-secondary);
+    background-color: white;
     min-width: 50vw;
     max-width: 850px;
 
