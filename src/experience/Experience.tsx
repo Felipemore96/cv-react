@@ -35,11 +35,11 @@ export function Experience() {
             <div className={styles.job} key={id}>
               <div className={styles.firstLine}>
                 <div>
-                  <h3 className={styles.jobTitle}>{jobsItem.role}</h3>
+                  <h3 className={styles.jobTitle}>{jobsItem.role} </h3>
                 </div>
                 <div>
                   <p className={styles.jobData}>
-                    - {jobsItem.modality} - {jobsItem.startDate} to{" "}
+                    {jobsItem.modality} - {jobsItem.startDate} to{" "}
                     {jobsItem.endDate}
                   </p>
                 </div>

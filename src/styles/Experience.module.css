@@ -52,7 +52,7 @@
 }
 
 .firstLine {
-    @apply flex;
+    @apply flex flex-col;
 }
 
 .secondLine {
