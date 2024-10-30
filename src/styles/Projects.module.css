@@ -109,4 +109,12 @@
     .projectsList {
         @apply flex-col pt-0;
     }
+
+    .smallProject {
+        @apply p-2 self-auto m-3;
+    }
+
+    .projectImage {
+        @apply w-auto;
+    }
 }
