@@ -107,7 +107,7 @@
     }
 
     .projectsList {
-        @apply flex-col pt-0;
+        @apply flex-col pt-0 gap-0;
     }
 
     .smallProject {
@@ -124,5 +124,9 @@
 
     .smallText {
         @apply text-sm my-1;
+    }
+
+    .projectDescription {
+        @apply h-auto my-0;
     }
 }
