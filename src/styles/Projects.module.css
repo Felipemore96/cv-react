@@ -133,4 +133,8 @@
     .icon {
         @apply h-6 p-1;
     }
+
+    .btnText {
+        @apply text-sm;
+    }
 }
