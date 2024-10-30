@@ -38,3 +38,24 @@
 
     line-height: 0;
 }
+
+@media screen and (max-width: 830px) {
+    .container {
+        margin-left: 0;
+        margin-right: 0;
+
+        @apply mt-10;
+    }
+
+    .title {
+        @apply text-4xl pt-0 pb-2;
+    }
+
+    .initialText {
+        @apply text-lg;
+    }
+
+    .buttonsLine {
+        @apply mt-0 mb-6;
+    }
+}
