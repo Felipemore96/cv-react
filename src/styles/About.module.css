@@ -108,7 +108,7 @@
 }
 
 .icon {
-    @apply hidden;
+    @apply w-8 p-1.5;
 }
 
 .progressBarContainer {
@@ -145,7 +145,7 @@
         margin-left: 0;
         margin-right: 0;
 
-        @apply items-center;
+        @apply items-center gap-2;
     }
 
     .title {
@@ -161,7 +161,11 @@
     }
 
     .location {
-        @apply text-base mt-2 mx-4;
+        @apply text-base my-2 mx-4;
+    }
+
+    .icon {
+        @apply hidden;
     }
 
     .master {
@@ -169,6 +173,10 @@
     }
 
     .mastersList {
-        @apply flex-col gap-6;
+        @apply flex-col gap-2;
+    }
+
+    .skillLine {
+        @apply mb-0;
     }
 }
