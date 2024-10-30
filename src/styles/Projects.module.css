@@ -98,7 +98,15 @@
         @apply mt-10;
     }
 
+    .title {
+        @apply text-4xl pt-0 pb-2;
+    }
+
+    .initialText {
+        @apply text-lg;
+    }
+
     .projectsList {
-        @apply flex-col;
+        @apply flex-col pt-0;
     }
 }
