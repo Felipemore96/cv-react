@@ -117,4 +117,12 @@
     .projectImage {
         @apply w-auto;
     }
+
+    .mainText {
+        @apply text-lg my-1.5;
+    }
+
+    .smallText {
+        @apply text-sm my-1;
+    }
 }
