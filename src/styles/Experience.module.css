@@ -147,4 +147,16 @@
     .button {
         @apply ml-0 self-center;
     }
+
+    .jobTitle {
+        @apply my-0 text-lg;
+    }
+
+    .jobData {
+        @apply text-base my-1;
+    }
+
+    .jobDetails {
+        @apply text-sm;
+    }
 }
