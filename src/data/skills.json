@@ -120,16 +120,16 @@
     "show": true
   },
   {
-    "title": "English",
-    "imageSrc": "icons/langs/english.png",
+    "title": "Spanish",
+    "imageSrc": "icons/langs/spanish.png",
     "url": "",
     "level": "1",
     "type": "lang",
     "show": true
   },
   {
-    "title": "Spanish",
-    "imageSrc": "icons/langs/spanish.png",
+    "title": "English",
+    "imageSrc": "icons/langs/english.png",
     "url": "",
     "level": "1",
     "type": "lang",

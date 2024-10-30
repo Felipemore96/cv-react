@@ -107,10 +107,14 @@
     @apply mb-2;
 }
 
+.icon {
+    @apply hidden;
+}
+
 .progressBarContainer {
     background-color: var(--color-secondary);
     border-radius: 8px;
-    min-width: 80px;
+    min-width: 100px;
     height: 8px;
     margin-top: 4px;
 }
@@ -153,14 +157,18 @@
     }
 
     .description {
-        @apply text-base m-2;
+        @apply text-base my-2 mx-4;
     }
 
     .location {
-        @apply text-base mt-2;
+        @apply text-base mt-2 mx-4;
+    }
+
+    .master {
+        @apply w-auto;
     }
 
     .mastersList {
-        @apply flex-col gap-8;
+        @apply flex-col gap-6;
     }
 }
