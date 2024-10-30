@@ -133,7 +133,14 @@
     }
 
     .jobsList {
-        @apply pt-0 gap-2;
+        @apply pt-0 gap-0;
+    }
+
+    .job {
+        min-width: 50vw;
+        max-width: 850px;
+
+        @apply p-2 self-auto m-3;
     }
 
     .firstLine {
