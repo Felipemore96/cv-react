@@ -123,7 +123,7 @@
     }
 
     .title {
-        @apply text-4xl pt-0 pb-2;
+        @apply text-4xl pt-0 pb-2 mt-0;
     }
 
     .initialText {
