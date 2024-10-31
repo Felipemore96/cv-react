@@ -28,8 +28,8 @@
 
 .job {
     background-color: white;
-    min-width: 50vw;
-    max-width: 850px;
+    /*min-width: 50vw;*/
+    width: 50vw;
 
     @apply p-4 rounded-2xl self-center;
 }
@@ -107,6 +107,16 @@
     @apply mb-2;
 }
 
+@media screen and (max-width: 1250px) {
+    .job {
+        @apply px-6 my-2 mx-5 m-3 w-96;
+    }
+
+    .jobLine {
+        @apply flex-col items-center;
+    }
+}
+
 @media screen and (max-width: 830px) {
     .container {
         margin-left: 0;
@@ -135,11 +145,7 @@
     }
 
     .job {
-        @apply px-2 py-4 self-auto m-3;
-    }
-
-    .jobLine {
-        @apply flex-col items-center;
+        @apply w-72;
     }
 
     .button {
@@ -151,11 +157,11 @@
     }
 
     .jobData {
-        @apply text-base my-1;
+        @apply text-base my-1 overflow-x-hidden;
     }
 
     .jobDetails {
-        @apply text-sm;
+        @apply text-sm justify-center;
     }
 
     .icon {

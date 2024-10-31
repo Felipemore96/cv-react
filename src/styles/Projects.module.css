@@ -1,7 +1,7 @@
 @import "./vars.css";
 
 .container {
-    z-index: 1;
+    z-index: 0;
     margin-top: 10%;
     margin-left: 15%;
     margin-right: 15%;
@@ -85,6 +85,17 @@
     @apply flex justify-center gap-2 mt-2;
 }
 
+@media screen and (max-width: 1450px) {
+    .projectsList {
+        @apply flex-col pt-0 gap-0 items-center;
+    }
+
+    .smallProject {
+        width: 700px;
+        @apply p-4 self-auto m-3;
+    }
+}
+
 @media screen and (max-width: 830px) {
     .container {
         margin-left: 0;
@@ -101,12 +112,8 @@
         @apply text-lg;
     }
 
-    .projectsList {
-        @apply flex-col pt-0 gap-0 items-center;
-    }
-
     .smallProject {
-        @apply p-4 self-auto m-3 w-auto;
+        @apply p-4 self-auto m-3 w-72;
     }
 
     .projectImage {
