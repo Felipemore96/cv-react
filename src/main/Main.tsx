@@ -1,10 +1,13 @@
-import { useState } from "react";
 import styles from "../styles/Main.module.css";
 import { getImageUrl } from "../utils.ts";
 export function Main() {
   return (
     <section className={styles.container}>
-      <img src="../../assets/photos/picture.png" className={styles.photo} />
+      <img
+        src="../../assets/photos/picture.png"
+        alt={"Felipe Moreira"}
+        className={styles.photo}
+      />
       <div className={styles.content}>
         <p className={styles.description}>Hello, I'm</p>
         <h1 className={styles.title}>Felipe Moreira</h1>

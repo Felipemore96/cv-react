@@ -1,5 +1,4 @@
 import styles from "./styles/App.module.css";
-import { Route, BrowserRouter, Routes } from "react-router-dom";
 import { Nav } from "./nav/Nav.tsx";
 import { Main } from "./main/Main.tsx";
 import { About } from "./about/About.tsx";
