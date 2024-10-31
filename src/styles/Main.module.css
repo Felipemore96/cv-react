@@ -43,6 +43,7 @@
 .btnLarge {
     color: var(--color-text);
     background-color: var(--color-primary);
+    transition: background-color 0.3s ease;
     font-family: var(--font-robot);
 
     @apply text-xl no-underline mb-4 rounded-full font-black p-4 cursor-pointer ;
@@ -50,11 +51,18 @@
 
 .btnSmall {
     background-color: var(--color-primary);
+    transition: background-color 0.3s ease;
     font-family: var(--font-robot);
 
     @apply text-lg no-underline mb-4 rounded-full font-black p-2 cursor-pointer;
 
     line-height: 0;
+}
+
+.btnLarge:hover, .btnSmall:hover {
+    background-color: var(--color-dark);
+    cursor: pointer;
+    border-color: transparent;
 }
 
 .firstBtnLine {

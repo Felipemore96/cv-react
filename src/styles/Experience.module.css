@@ -61,15 +61,11 @@
 .button {
     background-color: var(--color-primary);
     transition: background-color 0.3s ease;
-
-    @apply px-2 rounded-2xl self-center;
-}
-
-.buttonText {
     font-family: var(--font-robot);
     color: white;
 
-    @apply text-lg my-2 text-justify;
+    @apply px-3 py-1 rounded-2xl self-center;
+    @apply text-lg text-justify no-underline;
 }
 
 .button:hover {

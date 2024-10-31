@@ -64,7 +64,7 @@ export function Experience() {
                   className={styles.button}
                   onClick={() => handleJobClick(jobsItem)}
                 >
-                  <p className={styles.buttonText}>See Job Details</p>
+                  See Job Details
                 </div>
               </div>
             </div>

@@ -49,11 +49,20 @@
     @apply my-2 h-auto;
 }
 
-.btnText {
+.button {
+    background-color: var(--color-primary);
+    transition: background-color 0.3s ease;
     font-family: var(--font-robot);
-    color: var(--color-text);
+    color: white;
 
-    @apply text-base my-1 text-justify list-none no-underline;
+    @apply px-3 py-1 rounded-2xl self-center;
+    @apply text-lg text-justify no-underline;
+}
+
+.button:hover {
+    background-color: var(--color-dark);
+    cursor: pointer;
+    border-color: transparent;
 }
 
 .projectImage {
@@ -73,20 +82,6 @@
 
 .buttonsLine {
     @apply flex justify-center mt-auto gap-2;
-}
-
-
-.button {
-    border-color: var(--color-secondary);
-    transition: background-color 0.3s ease;
-
-    @apply px-2 border-2 border-solid rounded-2xl;
-}
-
-.button:hover {
-    background-color: var(--color-primary);
-    cursor: pointer;
-    border-color: transparent;
 }
 
 @media screen and (max-width: 830px) {
