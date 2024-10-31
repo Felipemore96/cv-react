@@ -1,15 +1,8 @@
 import styles from "../styles/Experience.module.css";
+import { Job } from "../class/job.ts";
 
 interface JobDetailsProps {
-  job: {
-    role: string;
-    modality: string;
-    company: string;
-    location: string;
-    startDate: string;
-    endDate: string;
-    experiences: string[];
-  };
+  job: Job;
   onClose: () => void;
 }
 
@@ -17,7 +10,11 @@ export function JobDetails({ job, onClose }: JobDetailsProps) {
   return (
     <div className={styles.modalOverlay}>
       <div className={styles.modalContent}>
-        <button className={styles.closeButton} onClick={onClose}>
+        <button
+          className={styles.closeButton}
+          onClick={onClose}
+          aria-label="Close job details"
+        >
           ×
         </button>
         <h2 className={styles.jobTitle}>{job.role}</h2>

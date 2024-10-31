@@ -5,18 +5,14 @@
     "description": "Developed a web application to manage projects and teams, with an IFC viewer that enables users to visualize, and manipulate BIM models, utilizing the That Open Engine library, React components, and a Firebase database.",
     "photo": "photos/bimsoftdevchallenge.png",
     "skills": ["ThatOpenEngine", "React", "TypeScript", "IFC", "HTML", "CSS"],
-    "button1": [
-      {
+    "button1": {
         "text": "GitHub Repo",
         "link": "https://github.com/Felipemore96/that-open-master-challenge"
-      }
-    ],
-    "button2": [
-      {
+    },
+    "button2": {
         "text": "LinkedIn Post",
         "link": "https://www.linkedin.com/feed/update/urn:li:activity:7236376079555342339/"
-      }
-    ]
+    }
   },
   {
     "organization": "BIM A+ European Master's Thesis",
@@ -24,18 +20,14 @@
     "description": "Created the frontend of an application to integrate BIM with AR, enhancing collaboration and productivity in construction by leveraging WebXR with IFC.",
     "photo": "photos/thesis.jpg",
     "skills": ["Three", "Revit", "TypeScript", "HTML", "IFC"],
-    "button1": [
-      {
+    "button1": {
         "text": "GitHub Repo",
         "link": "https://github.com/Felipemore96/BIM-A-Dissertation"
-      }
-    ],
-    "button2": [
-      {
+    },
+    "button2": {
         "text": "PDF Document",
         "link": "https://github.com/Felipemore96/BIM-A-Dissertation/blob/main/BIM%20Aplus%20Dissertation%20Felipe%20Moreira.pdf"
-      }
-    ]
+    }
   },
   {
     "organization": "Personal Project",
@@ -43,17 +35,13 @@
     "description": "Developed this personal CV website using React, TypeScript, and Tailwind. The app features dynamic sorting and filtering for skills, work history, and projects, retrieved from JSON files, along with a responsive design across devices.",
     "photo": "photos/cv-react.png",
     "skills": ["React", "TypeScript", "HTML", "Tailwind"],
-    "button1": [
-      {
+    "button1": {
         "text": "GitHub Repo",
         "link": "https://github.com/Felipemore96/cv-react"
-      }
-    ],
-    "button2": [
-      {
+    },
+    "button2": {
         "text": "LinkedIn Post",
         "link": "https://www.linkedin.com/in/felipemore96/"
-      }
-    ]
+    }
   }
 ]

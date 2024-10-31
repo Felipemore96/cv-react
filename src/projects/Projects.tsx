@@ -1,6 +1,7 @@
 import styles from "../styles/Projects.module.css";
 import projects from "../../src/data/projects.json";
 import { getImageUrl } from "../utils.ts";
+import { Project } from "../class/project.ts";
 
 export function Projects() {
   return (
@@ -8,7 +9,7 @@ export function Projects() {
       <p className={styles.initialText}>Browse my Recent</p>
       <h1 className={styles.title}>Projects</h1>
       <div className={styles.projectsList}>
-        {projects.map((project, index) => (
+        {projects.map((project: Project, index) => (
           <div key={index} className={styles.smallProject}>
             {project.photo && (
               <img

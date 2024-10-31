@@ -4,30 +4,31 @@ import jobs from "../../src/data/jobs.json";
 import { getImageUrl } from "../utils.ts";
 import { JobDetails } from "./JobDetails";
 import { useState } from "react";
+import { Job } from "../class/job.ts";
+import { Skill } from "../class/skill.ts";
 
 export function Experience() {
-  const [selectedJob, setSelectedJob] = useState(null);
+  const [selectedJob, setSelectedJob] = useState<Job | null>(null);
 
-  const handleJobClick = (job) => {
+  const handleJobClick = (job: Job) => {
     setSelectedJob(job);
   };
 
   const closeJobDetails = () => {
     setSelectedJob(null);
   };
+
   return (
     <section className={styles.container} id="experience">
       <p className={styles.initialText}>Explore My</p>
       <h1 className={styles.title}>Experience</h1>
       <div className={styles.jobsList}>
-        {jobs.map((jobsItem, id) => {
+        {jobs.map((jobsItem: Job, id: number) => {
           const skillImages = jobsItem.skills
             .map((jobSkill) => {
-              // Find the matching skill in skills.json
-              const skillData = skills.find(
+              const skillData = (skills as Skill[]).find(
                 (skill) => skill.title.toLowerCase() === jobSkill.toLowerCase(),
               );
-              // If a match is found, return the image URL
               return skillData ? getImageUrl(skillData.imageSrc) : null;
             })
             .filter((url) => url !== null); // Filter out any null values
