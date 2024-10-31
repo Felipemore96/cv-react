@@ -70,9 +70,6 @@
 }
 
 .projectImage {
-    /*width: 20vw;*/
-    /*height: 150px;*/
-
     @apply self-center object-cover my-2 w-full h-40;
 }
 
@@ -109,11 +106,11 @@
     }
 
     .smallProject {
-        @apply px-2 py-4 self-auto m-3 w-auto;
+        @apply p-4 self-auto m-3 w-auto;
     }
 
     .projectImage {
-        @apply w-auto h-36;
+        @apply w-full h-36;
     }
 
     .mainText {
