@@ -13,7 +13,7 @@
     ],
     "button2": [
       {
-        "text": "LinkedIn Demo",
+        "text": "LinkedIn Post",
         "link": "https://www.linkedin.com/feed/update/urn:li:activity:7236376079555342339/"
       }
     ]
@@ -52,7 +52,7 @@
     "button2": [
       {
         "text": "LinkedIn Post",
-        "link": "https://www.linkedin.com/feed/update/urn:li:activity:[post_id]/"
+        "link": "https://www.linkedin.com/in/felipemore96/"
       }
     ]
   }

@@ -17,10 +17,7 @@ export function Main() {
           >
             Download CV
           </a>
-          <a
-            className={styles.btnLarge}
-            href="https://www.linkedin.com/in/felipemore96/"
-          >
+          <a className={styles.btnLarge} href="#contact">
             Contact Me
           </a>
         </div>
