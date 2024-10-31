@@ -50,7 +50,7 @@
 }
 
 .projectDescription {
-    @apply my-2 h-auto;
+    @apply h-auto;
 }
 
 .button {
@@ -70,10 +70,10 @@
 }
 
 .projectImage {
-    width: 18vw;
-    height: 150px;
+    /*width: 20vw;*/
+    /*height: 150px;*/
 
-    @apply self-center object-cover my-2;
+    @apply self-center object-cover my-2 w-full h-40;
 }
 
 .icon {
@@ -85,7 +85,7 @@
 }
 
 .buttonsLine {
-    @apply flex justify-center gap-2;
+    @apply flex justify-center gap-2 mt-2;
 }
 
 @media screen and (max-width: 830px) {
@@ -105,15 +105,15 @@
     }
 
     .projectsList {
-        @apply flex-col pt-0 gap-0;
+        @apply flex-col pt-0 gap-0 items-center;
     }
 
     .smallProject {
-        @apply p-2 self-auto m-3;
+        @apply px-2 py-4 self-auto m-3 w-auto;
     }
 
     .projectImage {
-        @apply w-auto;
+        @apply w-auto h-36;
     }
 
     .mainText {

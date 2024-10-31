@@ -2,7 +2,7 @@
   {
     "organization": "Master Software Developer's Challenge",
     "name": "Web-based Application to Manage BIM Projects",
-    "description": "Developed a web application to manage projects and teams, where an IFC viewer was integrated to interact with BIM models and project data in real-time. The IFC viewer enables users to visualize, and manipulate models, utilizing the That Open Engine library, React components, and a Firebase database.",
+    "description": "Developed a web application to manage projects and teams, with an IFC viewer that enables users to visualize, and manipulate BIM models, utilizing the That Open Engine library, React components, and a Firebase database.",
     "photo": "photos/bimsoftdevchallenge.png",
     "skills": ["ThatOpenEngine", "React", "TypeScript", "IFC", "HTML", "CSS"],
     "button1": [
@@ -21,7 +21,7 @@
   {
     "organization": "BIM A+ European Master's Thesis",
     "name": "AR-enhanced environment for FM supported by OpenBIM",
-    "description": "Created an AR-based application to integrate BIM with AR, enhancing collaboration and productivity in construction by leveraging WebXR with IFC.",
+    "description": "Created the frontend of an application to integrate BIM with AR, enhancing collaboration and productivity in construction by leveraging WebXR with IFC.",
     "photo": "photos/thesis.jpg",
     "skills": ["Three", "Revit", "TypeScript", "HTML", "IFC"],
     "button1": [
@@ -40,7 +40,7 @@
   {
     "organization": "Personal Project",
     "name": "Interactive CV Web React Application ",
-    "description": "Developed this personal CV website using React, TypeScript, and Tailwind. The app features dynamic sorting and filtering for skills, work history, and projects, along with a responsive design across devices.",
+    "description": "Developed this personal CV website using React, TypeScript, and Tailwind. The app features dynamic sorting and filtering for skills, work history, and projects, retrieved from JSON files, along with a responsive design across devices.",
     "photo": "photos/cv-react.png",
     "skills": ["React", "TypeScript", "HTML", "Tailwind"],
     "button1": [
