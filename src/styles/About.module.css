@@ -120,7 +120,7 @@
     @apply flex gap-2 items-center;
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1450px) {
     .container {
         margin-left: 0;
         margin-right: 0;
@@ -148,11 +148,11 @@
     }
 
     .description {
-        @apply text-base my-2 mx-4 ;
+        @apply text-base;
     }
 
     .location {
-        @apply text-base my-2 mx-4;
+        @apply text-base my-2;
     }
 
     .uniText {
@@ -164,10 +164,28 @@
     }
 
     .master {
+        width: 700px;
+
         @apply p-2 my-2 mx-5 self-center;
     }
 
     .mastersList {
         @apply flex-col gap-0;
+    }
+
+    .aboutInfo {
+        width: 700px;
+
+        @apply my-2 mx-5 self-center;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .aboutInfo {
+        @apply p-0 self-auto m-0 w-72;
+    }
+
+    .master {
+        @apply p-4 self-auto m-3 w-72;
     }
 }

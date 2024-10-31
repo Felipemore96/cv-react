@@ -107,9 +107,11 @@
     @apply mb-2;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1450px) {
     .job {
-        @apply px-6 my-2 mx-5 m-3 w-96;
+        width: 700px;
+
+        @apply px-6 my-2 mx-5 m-3;
     }
 
     .jobLine {
@@ -149,7 +151,7 @@
     }
 
     .job {
-        @apply w-72;
+        @apply p-4 m-3 w-72;;
     }
 
     .button {
