@@ -36,19 +36,19 @@ export function Projects() {
             <div className={styles.buttonsLine}>
               <a
                 className={styles.button}
-                href={project.button1[0].link}
+                href={project.button1.link}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {project.button1[0].text}
+                {project.button1.text}
               </a>
               <a
                 className={styles.button}
-                href={project.button2[0].link}
+                href={project.button2.link}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {project.button2[0].text}
+                {project.button2.text}
               </a>
             </div>
           </div>
