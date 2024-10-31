@@ -36,7 +36,7 @@
 .mainText {
     font-family: var(--font-robot);
 
-    @apply text-xl my-1.5 font-bold;
+    @apply text-xl my-1.5 font-bold text-center;
 }
 
 .smallText {
@@ -46,7 +46,9 @@
 }
 
 .subTitleText {
-    @apply smallText font-bold;
+    font-family: var(--font-robot);
+
+    @apply text-base my-1 font-bold text-center;
 }
 
 .projectDescription {

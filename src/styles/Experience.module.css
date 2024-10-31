@@ -115,6 +115,10 @@
     .jobLine {
         @apply flex-col items-center;
     }
+
+    .jobData {
+        @apply text-center;
+    }
 }
 
 @media screen and (max-width: 830px) {
@@ -157,7 +161,7 @@
     }
 
     .jobData {
-        @apply text-base my-1 overflow-x-hidden;
+        @apply text-base my-1;
     }
 
     .jobDetails {
