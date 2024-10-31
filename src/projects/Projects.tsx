@@ -33,26 +33,22 @@ export function Projects() {
               ))}
             </div>
             <div className={styles.buttonsLine}>
-              {project.button1[0].text && (
-                <a
-                  className={styles.button}
-                  href={project.button1[0].link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {project.button1[0].text}
-                </a>
-              )}
-              {project.button2[0].text && (
-                <a
-                  className={styles.button}
-                  href={project.button2[0].link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {project.button2[0].text}
-                </a>
-              )}
+              <a
+                className={styles.button}
+                href={project.button1[0].link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {project.button1[0].text}
+              </a>
+              <a
+                className={styles.button}
+                href={project.button2[0].link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {project.button2[0].text}
+              </a>
             </div>
           </div>
         ))}

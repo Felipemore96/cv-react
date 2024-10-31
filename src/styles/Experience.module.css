@@ -135,7 +135,7 @@
     }
 
     .job {
-        @apply p-2 self-auto m-3;
+        @apply px-2 py-4 self-auto m-3;
     }
 
     .jobLine {
@@ -160,5 +160,9 @@
 
     .icon {
         @apply w-6 p-1;
+    }
+
+    .buttonLine {
+        @apply mt-4;
     }
 }

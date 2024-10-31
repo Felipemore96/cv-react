@@ -23,14 +23,14 @@
 }
 
 .projectsList {
-    @apply pt-8 flex gap-8;
+    @apply pt-8 flex flex-row gap-8;
 }
 
 .smallProject {
-    border-color: var(--color-secondary);
     background-color: white;
 
-    @apply p-4 border-2 border-solid rounded-2xl flex flex-col justify-between;
+    @apply p-4 rounded-2xl flex flex-col justify-between;
+    @apply w-full;
 }
 
 .mainText {
