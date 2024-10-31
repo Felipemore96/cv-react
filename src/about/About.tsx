@@ -61,21 +61,21 @@ export function About() {
           <div className={styles.aboutInfo}>
             <p className={styles.description}>
               Hey there! I'm Felipe, a software developer with a background in
-              construction engineering. I started out managing projects in the
-              real world and eventually found my way into the digital side of
-              things. These days, I'm all about building web applications for
-              the AEC (Architecture, Engineering, and Construction) industry,
-              where I can blend my love for technology and my engineering
-              experience.
+              construction engineering. I started out managing construction
+              projects and, during my master, found my way into the digital side
+              of this industry. These days, I'm all about building web
+              applications for the AEC (Architecture, Engineering, and
+              Construction) industry, where I can blend my love for technology
+              and my engineering experience.
               {window.innerWidth > 600 && (
                 <>
                   <br />
                   <br />
                   I’m passionate about solving tricky problems and always eager
                   to learn something new. Whether it's developing tools to make
-                  workflows smoother or exploring the latest tech trends, I
-                  enjoy the challenge of bridging the gap between traditional
-                  practices and modern solutions.
+                  workflows smoother or creating platforms for real-time
+                  collaboration, I enjoy the challenge of bridging the gap
+                  between traditional practices and modern solutions.
                   <br />
                   <br />
                   Thanks for stopping by! Feel free to explore my projects, and
