@@ -33,10 +33,25 @@ export function Experience() {
             .filter((url) => url !== null); // Filter out any null values
           return (
             <div className={styles.job} key={id}>
-              <div className={styles.firstLine}>
+              <div className={styles.jobLine}>
+                <h3 className={styles.jobTitle}>{jobsItem.role} </h3>
                 <div>
-                  <h3 className={styles.jobTitle}>{jobsItem.role} </h3>
+                  <div>
+                    {skillImages.map((imageUrl, index) => (
+                      <img
+                        key={index}
+                        src={imageUrl}
+                        className={styles.icon}
+                        alt="Skill"
+                      />
+                    ))}
+                  </div>
                 </div>
+              </div>
+              <div className={styles.jobLine}>
+                <p className={styles.jobData}>
+                  {jobsItem.company} - {jobsItem.location}
+                </p>
                 <div>
                   <p className={styles.jobData}>
                     {jobsItem.modality} - {jobsItem.startDate} to{" "}
@@ -44,27 +59,12 @@ export function Experience() {
                   </p>
                 </div>
               </div>
-              <div className={styles.secondLine}>
-                <p className={styles.jobData}>
-                  {jobsItem.company} - {jobsItem.location}
-                </p>
+              <div className={styles.buttonLine}>
                 <div
                   className={styles.button}
                   onClick={() => handleJobClick(jobsItem)}
                 >
-                  <p className={styles.jobData}>See Job Details</p>
-                </div>
-              </div>
-              <div className={styles.thirdLine}>
-                <div>
-                  {skillImages.map((imageUrl, index) => (
-                    <img
-                      key={index}
-                      src={imageUrl}
-                      className={styles.icon}
-                      alt="Skill"
-                    />
-                  ))}
+                  <p className={styles.buttonText}>See Job Details</p>
                 </div>
               </div>
             </div>

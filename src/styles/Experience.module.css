@@ -50,27 +50,30 @@
     @apply text-lg my-2 text-justify;
 }
 
-.firstLine {
-    @apply flex flex-col;
-}
-
-.secondLine {
+.jobLine {
     @apply flex flex-row justify-between;
 }
 
-.thirdLine {
+.buttonLine {
     @apply flex justify-center;
 }
 
 .button {
-    border-color: var(--color-secondary);
+    background-color: var(--color-primary);
     transition: background-color 0.3s ease;
 
-    @apply px-2 border-2 border-solid rounded-2xl ml-52;
+    @apply px-2 rounded-2xl self-center;
+}
+
+.buttonText {
+    font-family: var(--font-robot);
+    color: white;
+
+    @apply text-lg my-2 text-justify;
 }
 
 .button:hover {
-    background-color: var(--color-primary);
+    background-color: var(--color-dark);
     cursor: pointer;
     border-color: transparent;
 }
@@ -139,16 +142,8 @@
         @apply p-2 self-auto m-3;
     }
 
-    .firstLine {
-        @apply flex-col gap-0.5;
-    }
-
-    .secondLine {
-        @apply flex-col;
-    }
-
-    .thirdLine {
-        @apply pt-1;
+    .jobLine {
+        @apply flex-col items-center;
     }
 
     .button {
