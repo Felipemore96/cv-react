@@ -1,9 +1,12 @@
 import styles from "../styles/About.module.css";
-import skills from "../../src/data/skills.json";
+import skillsData from "../../src/data/skills.json";
 import { getImageUrl } from "../utils.ts";
+import { Skill } from "../class/skill.ts";
 
 export function About() {
-  const sortedSkills = {
+  const skills: Skill[] = skillsData;
+
+  const sortedSkills: Record<Skill["type"], Skill[]> = {
     bim: skills
       .filter((skill) => skill.type === "bim" && skill.show)
       .sort((a, b) => b.level - a.level),
@@ -15,7 +18,7 @@ export function About() {
       .sort((a, b) => b.level - a.level),
   };
 
-  const renderSkills = (skillsList) =>
+  const renderSkills = (skillsList: Skill[]) =>
     skillsList.map((skill, index) => (
       <li key={index} className={styles.skillLine}>
         <div className={styles.skill}>

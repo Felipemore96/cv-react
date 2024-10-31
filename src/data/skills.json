@@ -3,7 +3,7 @@
     "title": "AutoCAD",
     "imageSrc": "icons/skills/autocad.png",
     "url": "https://www.autodesk.com/products/autocad",
-    "level": "0.85",
+    "level": 0.85,
     "type": "bim",
     "show": true
   },
@@ -11,7 +11,7 @@
     "title": "CSS",
     "imageSrc": "icons/skills/css.png",
     "url": "https://developer.mozilla.org/docs/Web/CSS",
-    "level": "0.89",
+    "level": 0.89,
     "type": "prog",
     "show": false
   },
@@ -19,7 +19,7 @@
     "title": "Dynamo",
     "imageSrc": "icons/skills/dynamo.png",
     "url": "https://dynamobim.org/",
-    "level": "0.8",
+    "level": 0.8,
     "type": "bim",
     "show": true
   },
@@ -27,7 +27,7 @@
     "title": "HTML",
     "imageSrc": "icons/skills/html.png",
     "url": "https://developer.mozilla.org/docs/Web/HTML",
-    "level": "0.85",
+    "level": 0.85,
     "type": "prog",
     "show": true
   },
@@ -35,7 +35,7 @@
     "title": "IFC",
     "imageSrc": "icons/skills/ifc.png",
     "url": "https://www.ifc.org/",
-    "level": "0.6",
+    "level": 0.6,
     "type": "bim",
     "show": false
   },
@@ -43,7 +43,7 @@
     "title": "Navisworks",
     "imageSrc": "icons/skills/navisworks.png",
     "url": "https://www.autodesk.com/products/navisworks",
-    "level": "0.3",
+    "level": 0.3,
     "type": "bim",
     "show": true
   },
@@ -51,7 +51,7 @@
     "title": "Project",
     "imageSrc": "icons/skills/project.png",
     "url": "https://www.microsoft.com/microsoft-365/project/project-management-software",
-    "level": "0.85",
+    "level": 0.85,
     "type": "bim",
     "show": true
   },
@@ -59,7 +59,7 @@
     "title": "Python",
     "imageSrc": "icons/skills/python.png",
     "url": "https://www.python.org/",
-    "level": "0.4",
+    "level": 0.4,
     "type": "prog",
     "show": true
   },
@@ -67,7 +67,7 @@
     "title": "React",
     "imageSrc": "icons/skills/react.png",
     "url": "https://react.dev/",
-    "level": "0.8",
+    "level": 0.8,
     "type": "prog",
     "show": true
   },
@@ -75,7 +75,7 @@
     "title": "Revit",
     "imageSrc": "icons/skills/revit.png",
     "url": "https://www.autodesk.com/products/revit",
-    "level": "0.9",
+    "level": 0.9,
     "type": "bim",
     "show": true
   },
@@ -83,7 +83,7 @@
     "title": "Tailwind",
     "imageSrc": "icons/skills/tailwind.png",
     "url": "https://tailwindcss.com/",
-    "level": "0.87",
+    "level": 0.87,
     "type": "prog",
     "show": true
   },
@@ -91,7 +91,7 @@
     "title": "ThatOpenEngine",
     "imageSrc": "icons/skills/thatopenengine.png",
     "url": "https://docs.thatopen.com/",
-    "level": "0.6",
+    "level": 0.6,
     "type": "prog",
     "show": true
   },
@@ -99,7 +99,7 @@
     "title": "Three",
     "imageSrc": "icons/skills/three.png",
     "url": "https://threejs.org/",
-    "level": "0.3",
+    "level": 0.3,
     "type": "prog",
     "show": false
   },
@@ -107,7 +107,7 @@
     "title": "TypeScript",
     "imageSrc": "icons/skills/typescript.png",
     "url": "https://www.typescriptlang.org/",
-    "level": "0.9",
+    "level": 0.9,
     "type": "prog",
     "show": true
   },
@@ -115,7 +115,7 @@
     "title": "Vue",
     "imageSrc": "icons/skills/vue.png",
     "url": "https://vuejs.org/",
-    "level": "0.4",
+    "level": 0.4,
     "type": "prog",
     "show": true
   },
@@ -123,7 +123,7 @@
     "title": "Spanish",
     "imageSrc": "icons/langs/spanish.png",
     "url": "",
-    "level": "1",
+    "level": 1,
     "type": "lang",
     "show": true
   },
@@ -131,7 +131,7 @@
     "title": "English",
     "imageSrc": "icons/langs/english.png",
     "url": "",
-    "level": "1",
+    "level": 1,
     "type": "lang",
     "show": true
   },
@@ -139,7 +139,7 @@
     "title": "Portuguese",
     "imageSrc": "icons/langs/portuguese.png",
     "url": "",
-    "level": "0.7",
+    "level": 0.7,
     "type": "lang",
     "show": true
   }
