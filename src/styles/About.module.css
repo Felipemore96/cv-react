@@ -25,28 +25,27 @@
     @apply flex flex-col gap-6;
 }
 
-.mastersList {
-    @apply flex gap-8 ;
-}
-
 .aboutList {
     @apply flex justify-between gap-6 mt-10;
 }
 
 .about {
-    @apply flex flex-row justify-between;
+    @apply pt-8 flex flex-row justify-between;
 }
 
 .aboutInfo {
     @apply content-center;
 }
 
+.mastersList {
+    @apply flex flex-row gap-8;
+}
+
 .master {
     background-color: white;
-    border-color: var(--color-secondary);
 
-    @apply p-4 border-2 border-solid rounded-2xl;
-    @apply flex flex-col text-center items-center w-full;
+    @apply p-4 rounded-2xl;
+    @apply flex flex-col items-center w-full;
 }
 
 .icon {
@@ -86,19 +85,6 @@
     @apply text-xl my-2 text-justify;
 }
 
-.experience {
-    @apply flex flex-row gap-4 justify-center;
-}
-
-.jobs {
-    background-color: white;
-    border-color: var(--color-secondary);
-
-    @apply py-4 px-4 border-2 border-dashed rounded-full;
-    @apply flex flex-col text-center;
-}
-
-
 .skillsSection {
     @apply flex flex-col;
 }
@@ -126,7 +112,8 @@
 }
 
 .skillLine {
-    @apply flex justify-between flex-row gap-4 items-center mb-1;
+    @apply flex justify-between flex-row gap-8 items-center;
+    @apply mb-1;
 }
 
 .skill {
@@ -145,7 +132,7 @@
         margin-left: 0;
         margin-right: 0;
 
-        @apply items-center gap-2;
+        @apply items-center gap-0;
     }
 
     .title {
@@ -156,8 +143,12 @@
         @apply text-lg;
     }
 
+    .about {
+        @apply pt-0;
+    }
+
     .description {
-        @apply text-base my-2 mx-4;
+        @apply text-base my-2 mx-4 ;
     }
 
     .location {
@@ -165,7 +156,7 @@
     }
 
     .uniText {
-        @apply mt-0.5;
+        @apply my-0.5;
     }
 
     .icon {
@@ -173,14 +164,14 @@
     }
 
     .master {
-        @apply w-auto;
+        @apply p-2 my-2 mx-5 self-center;
     }
 
     .mastersList {
-        @apply flex-col gap-2;
+        @apply flex-col gap-0;
     }
 
-    .skillLine {
-        @apply mb-0;
-    }
+    /*.skillLine {*/
+    /*    @apply mb-0;*/
+    /*}*/
 }

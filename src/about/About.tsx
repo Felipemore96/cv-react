@@ -43,30 +43,16 @@ export function About() {
       <p className={styles.initialText}>Get To Know More</p>
       <h1 className={styles.title}>About Me</h1>
       <div className={styles.content}>
-        <div className={styles.experience}>
-          <div className={styles.jobs}>
-            <p className={styles.masterText}>
-              Construction <br /> Engineer
-            </p>
-            <p className={styles.uniText}>2019 - 2022</p>
-          </div>
-          <div className={styles.jobs}>
-            <p className={styles.masterText}>
-              BIM Software <br /> Developer
-            </p>
-            <p className={styles.uniText}>2023 - Present</p>
-          </div>
-        </div>
         <div className={styles.about}>
           <div className={styles.aboutInfo}>
             <p className={styles.description}>
               Hey there! I'm Felipe, a software developer with a background in
               construction engineering. I started out managing construction
-              projects and, during my master, found my way into the digital side
-              of this industry. These days, I'm all about building web
-              applications for the AEC (Architecture, Engineering, and
-              Construction) industry, where I can blend my love for technology
-              and my engineering experience.
+              projects but transitioned into the digital side of the industry
+              while pursuing my master’s degree. These days, I'm all about
+              building web applications for the AEC (Architecture, Engineering,
+              and Construction) industry, where I can blend my love for
+              technology and my engineering experience.
               {window.innerWidth > 600 && (
                 <>
                   <br />
