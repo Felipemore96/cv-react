@@ -10,11 +10,6 @@ export function Projects() {
       <div className={styles.projectsList}>
         {projects.map((project, index) => (
           <div key={index} className={styles.smallProject}>
-            <div className={styles.projectDescription}>
-              <p className={styles.mainText}>{project.name}</p>
-              <p className={styles.smallText}>{project.organization}</p>
-              <p className={styles.smallText}>{project.description}</p>
-            </div>
             {project.photo && (
               <img
                 src={getImageUrl(project.photo)}
@@ -22,6 +17,11 @@ export function Projects() {
                 alt={project.name}
               />
             )}
+            <div className={styles.projectDescription}>
+              <p className={styles.mainText}>{project.name}</p>
+              <p className={styles.subTitleText}>{project.organization}</p>
+              <p className={styles.smallText}>{project.description}</p>
+            </div>
             <div className={styles.iconsLine}>
               {project.skills.map((skill, skillIndex) => (
                 <img

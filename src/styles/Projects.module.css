@@ -45,6 +45,10 @@
     @apply text-base my-1 text-justify;
 }
 
+.subTitleText {
+    @apply smallText font-bold;
+}
+
 .projectDescription {
     @apply my-2 h-auto;
 }
@@ -77,11 +81,11 @@
 }
 
 .iconsLine {
-    @apply flex justify-center gap-0.5 mt-auto mb-2;
+    @apply flex justify-center gap-0.5 mt-auto mb-2 align-bottom;
 }
 
 .buttonsLine {
-    @apply flex justify-center mt-auto gap-2;
+    @apply flex justify-center gap-2;
 }
 
 @media screen and (max-width: 830px) {
