@@ -59,7 +59,7 @@
 .masterText {
     font-family: var(--font-robot);
 
-    @apply m-0 font-bold text-base;
+    @apply m-0 font-bold text-base text-center;
 }
 
 .uniText {

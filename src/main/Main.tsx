@@ -1,6 +1,7 @@
 import styles from "../styles/Main.module.css";
 import { getImageUrl } from "../utils.ts";
 import picture from "../../assets/photos/picture.png";
+import pdffile from "../../assets/docs/CVFelipeMoreiraENG.pdf";
 export function Main() {
   return (
     <section className={styles.container}>
@@ -12,7 +13,7 @@ export function Main() {
         <div className={styles.firstBtnLine}>
           <a
             className={styles.btnLarge}
-            href="../../assets/docs/CVFelipeMoreiraENG.pdf"
+            href={pdffile}
             download="CVFelipeMoreiraENG.pdf"
           >
             Download CV
