@@ -4,7 +4,7 @@
     "name": "Web-based Application to Manage BIM Projects",
     "description": "Developed a web application to manage projects and teams, with an IFC viewer that enables users to visualize, and manipulate BIM models, utilizing the That Open Engine library, React components, and a Firebase database.",
     "photo": "photos/bimsoftdevchallenge.png",
-    "skills": ["ThatOpenEngine", "React", "TypeScript", "IFC", "HTML", "CSS"],
+    "skills": ["ThatOpenEngine", "React", "Three", "TypeScript", "IFC", "HTML", "CSS"],
     "button1": {
         "text": "GitHub Repo",
         "link": "https://github.com/Felipemore96/that-open-master-challenge"
