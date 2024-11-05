@@ -31,64 +31,54 @@ export function Experience() {
       <p className={styles.initialText}>Explore My</p>
       <h1 className={styles.title}>Experience</h1>
       <div className={styles.jobsList}>
-        {jobs.map((jobsItem: Job, id: number) => {
-          const skillImages = jobsItem.skills
-            .map((jobSkill) => {
-              const skillData = (skills as Skill[]).find(
-                (skill) => skill.title.toLowerCase() === jobSkill.toLowerCase(),
-              );
-              return skillData ? getImageUrl(skillData.imageSrc) : null;
-            })
-            .filter((url) => url !== null);
-          return (
-            <div className={styles.job} key={id}>
-              <div className={styles.jobLine}>
-                <h3 className={styles.jobTitle}>{jobsItem.role} </h3>
-                <div>
-                  {jobsItem.skills.map((jobSkill, index) => {
-                    const skillData = skillsLookup[jobSkill.toLowerCase()];
-                    if (!skillData) return null; // Skip if skill not found
+        {jobs.map((jobsItem: Job, id: number) => (
+          <div className={styles.job} key={id}>
+            <div className={styles.jobLine}>
+              <h3 className={styles.jobTitle}>{jobsItem.role} </h3>
+              <div>
+                {jobsItem.skills.map((jobSkill, index) => {
+                  const skillData = skillsLookup[jobSkill.toLowerCase()];
+                  if (!skillData) return null; // Skip if skill not found
 
-                    return (
-                      <a
-                        key={index}
-                        href={skillData.url || "#"}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        title={skillData.title} // Show skill name on hover
-                      >
-                        <img
-                          src={getImageUrl(skillData.imageSrc)}
-                          className={styles.icon}
-                          alt={skillData.title}
-                        />
-                      </a>
-                    );
-                  })}
-                </div>
-              </div>
-              <div className={styles.jobLine}>
-                <p className={styles.jobData}>
-                  {jobsItem.company} - {jobsItem.location}
-                </p>
-                <div>
-                  <p className={styles.jobData}>
-                    {jobsItem.modality} - {jobsItem.startDate} to{" "}
-                    {jobsItem.endDate}
-                  </p>
-                </div>
-              </div>
-              <div className={styles.buttonLine}>
-                <div
-                  className={styles.button}
-                  onClick={() => handleJobClick(jobsItem)}
-                >
-                  See Job Details
-                </div>
+                  return (
+                    <a
+                      key={index}
+                      href={skillData.url || "#"}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title={skillData.title} // Show skill name on hover
+                    >
+                      <img
+                        src={getImageUrl(skillData.imageSrc)}
+                        className={styles.icon}
+                        alt={skillData.title}
+                      />
+                    </a>
+                  );
+                })}
               </div>
             </div>
-          );
-        })}
+            <div className={styles.jobLine}>
+              <p className={styles.jobData}>
+                {jobsItem.company} - {jobsItem.location}
+              </p>
+              <div>
+                <p className={styles.jobData}>
+                  {jobsItem.modality} - {jobsItem.startDate} to{" "}
+                  {jobsItem.endDate}
+                </p>
+              </div>
+            </div>
+            <div className={styles.buttonLine}>
+              <div
+                className={styles.button}
+                onClick={() => handleJobClick(jobsItem)}
+              >
+                See Job Details
+              </div>
+            </div>
+          </div>
+        ))}
       </div>
       {selectedJob && (
         <JobDetails job={selectedJob} onClose={closeJobDetails} />
