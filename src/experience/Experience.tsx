@@ -18,6 +18,14 @@ export function Experience() {
     setSelectedJob(null);
   };
 
+  const skillsLookup = (skills as Skill[]).reduce(
+    (lookup, skill) => {
+      lookup[skill.title.toLowerCase()] = skill;
+      return lookup;
+    },
+    {} as Record<string, Skill>,
+  );
+
   return (
     <section className={styles.container} id="experience">
       <p className={styles.initialText}>Explore My</p>
@@ -31,22 +39,32 @@ export function Experience() {
               );
               return skillData ? getImageUrl(skillData.imageSrc) : null;
             })
-            .filter((url) => url !== null); // Filter out any null values
+            .filter((url) => url !== null);
           return (
             <div className={styles.job} key={id}>
               <div className={styles.jobLine}>
                 <h3 className={styles.jobTitle}>{jobsItem.role} </h3>
                 <div>
-                  <div>
-                    {skillImages.map((imageUrl, index) => (
-                      <img
+                  {jobsItem.skills.map((jobSkill, index) => {
+                    const skillData = skillsLookup[jobSkill.toLowerCase()];
+                    if (!skillData) return null; // Skip if skill not found
+
+                    return (
+                      <a
                         key={index}
-                        src={imageUrl}
-                        className={styles.icon}
-                        alt="Skill"
-                      />
-                    ))}
-                  </div>
+                        href={skillData.url || "#"}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title={skillData.title} // Show skill name on hover
+                      >
+                        <img
+                          src={getImageUrl(skillData.imageSrc)}
+                          className={styles.icon}
+                          alt={skillData.title}
+                        />
+                      </a>
+                    );
+                  })}
                 </div>
               </div>
               <div className={styles.jobLine}>
