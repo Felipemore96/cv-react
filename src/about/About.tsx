@@ -22,7 +22,17 @@ export function About() {
     skillsList.map((skill, index) => (
       <li key={index} className={styles.skillLine}>
         <div className={styles.skill}>
-          <img src={getImageUrl(skill.imageSrc)} className={styles.skillIcon} />
+          <a
+            href={skill.url || "#"}
+            target="_blank"
+            rel="noopener noreferrer"
+            title={skill.title}
+          >
+            <img
+              src={getImageUrl(skill.imageSrc)}
+              className={styles.skillIcon}
+            />
+          </a>
           <a
             className={styles.uniText}
             href={skill.url || "#"}
