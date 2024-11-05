@@ -1,5 +1,6 @@
 import styles from "../styles/Experience.module.css";
 import { Job } from "../class/job.ts";
+import { useEffect } from "react";
 
 interface JobDetailsProps {
   job: Job;
@@ -7,6 +8,14 @@ interface JobDetailsProps {
 }
 
 export function JobDetails({ job, onClose }: JobDetailsProps) {
+  useEffect(() => {
+    document.body.style.overflow = "hidden";
+
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, []);
+
   return (
     <div className={styles.modalOverlay}>
       <div className={styles.modalContent}>
