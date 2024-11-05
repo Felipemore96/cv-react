@@ -1,9 +1,19 @@
 import styles from "../styles/Projects.module.css";
 import projects from "../../src/data/projects.json";
+import skillsData from "../../src/data/skills.json";
 import { getImageUrl } from "../utils.ts";
 import { Project } from "../class/project.ts";
+import { Skill } from "../class/skill.ts";
 
 export function Projects() {
+  const skillsLookup = skillsData.reduce(
+    (lookup, skill: Skill) => {
+      lookup[skill.title.toLowerCase()] = skill;
+      return lookup;
+    },
+    {} as Record<string, Skill>,
+  );
+
   return (
     <section className={styles.container} id="projects">
       <p className={styles.initialText}>Browse my Recent</p>
@@ -24,14 +34,25 @@ export function Projects() {
               <p className={styles.smallText}>{project.description}</p>
             </div>
             <div className={styles.iconsLine}>
-              {project.skills.map((skill, skillIndex) => (
-                <img
-                  key={skillIndex}
-                  src={getImageUrl(`icons/skills/${skill.toLowerCase()}.png`)}
-                  className={styles.icon}
-                  alt={skill}
-                />
-              ))}
+              {project.skills.map((skillName, skillIndex) => {
+                const skill = skillsLookup[skillName.toLowerCase()];
+                if (!skill) return null;
+                return (
+                  <a
+                    key={skillIndex}
+                    href={skill.url || "#"}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title={skill.title}
+                  >
+                    <img
+                      src={getImageUrl(skill.imageSrc)}
+                      className={styles.icon}
+                      alt={skill.title}
+                    />
+                  </a>
+                );
+              })}
             </div>
             <div className={styles.buttonsLine}>
               <a
