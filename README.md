@@ -1,52 +1,23 @@
-# React + TypeScript + Vite
+# Felipe Moreira's CV-Portfolio
 
-Web application to show profesional CV and use as practice for React.js
+Welcome to the CV-Portfolio project of Felipe Moreira, hosted at [felipe-moreira.com](https://felipe-moreira.com). This portfolio is designed to showcase my skills, projects, and professional experience in software development, with a focus on BIM and front-end technologies.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
 
-Currently, two official plugins are available:
+- **Homepage:** An introduction with a professional image and buttons to contact me and download my CV.
+- **About Me:** A brief overview of my background, highlighting my educational journey, key skills, and areas of expertise.
+- **Experience:** Detailed sections showcasing my work experience, with emphasis on relevant skills and technologies used in each role.
+- **Projects:** A curated list of projects, featuring live demos and links to explore the source code and repositories on GitHub.
+- **Contact Me:** Convenient footer section with contact buttons for easy communication and inquiries.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Deployment
 
-## Expanding the ESLint configuration
+This portfolio is hosted on Netlify. Every push to the main branch of the GitHub repository triggers an automatic deployment, ensuring the website is always up-to-date with the latest changes. The domain was purchased through domain.com and connected directly to Netlify via DNS mapping.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Contributing
 
-- Configure the top-level `parserOptions` property like this:
+Contributions are welcome! If you have suggestions for improvements or find any issues, please open an issue or submit a pull request.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Acknowledgements
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Inspired by [Complete React Portfolio Website by Code Complete](https://www.youtube.com/watch?v=YQCDUJ6hhNY) (for overall structure) and [Responsive Portfolio Website by How to Become a Developer](https://www.youtube.com/watch?v=ldwlOzRvYOU&t=2859s) (for responsive design).
