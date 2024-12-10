@@ -61,8 +61,8 @@
     font-family: var(--font-robot);
     color: white;
 
-    @apply px-3 py-1 rounded-2xl self-center;
-    @apply text-lg text-justify no-underline;
+    @apply px-2 py-1 rounded-2xl;
+    @apply text-lg text-center no-underline;
 }
 
 .button:hover {
