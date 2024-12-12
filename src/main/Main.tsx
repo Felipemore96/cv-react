@@ -9,7 +9,8 @@ export function Main() {
       <div className={styles.content}>
         <p className={styles.description}>Hello, I'm</p>
         <h1 className={styles.title}>Felipe Moreira</h1>
-        <p className={styles.description}>BIM Software Developer</p>
+        <p className={styles.description}>Civil Engineer</p>
+        <p className={styles.description}>Junior AEC Software Engineer</p>
         <div className={styles.firstBtnLine}>
           <a
             className={styles.btnLarge}
