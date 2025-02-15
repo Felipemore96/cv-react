@@ -59,13 +59,13 @@ export function About() {
         <div className={styles.about}>
           <div className={styles.aboutInfo}>
             <p className={styles.description}>
-              Hey there! I'm Felipe, a software developer with a background in
-              construction engineering. I started out managing construction
-              projects but transitioned into the digital side of the industry
-              while pursuing my master’s degree. These days, I'm all about
-              building web applications for the AEC (Architecture, Engineering,
-              and Construction) industry, where I can blend my love for
-              technology and my engineering experience.
+              Hey there! I'm Felipe, a bim specialist and software developer
+              with a background in construction engineering. I started out
+              managing construction projects and now I'm transitioning into the
+              digital side of the industry after pursuing my master’s degree.
+              These days, I'm all about building web applications for the AEC
+              (Architecture, Engineering, and Construction) industry, where I
+              can blend my love for technology and my engineering experience.
               {window.innerWidth > 600 && (
                 <>
                   <br />

@@ -59,7 +59,7 @@
     "title": "Python",
     "imageSrc": "icons/skills/python.png",
     "url": "https://www.python.org/",
-    "level": 0.4,
+    "level": 0.6,
     "type": "prog",
     "show": true
   },
@@ -67,7 +67,7 @@
     "title": "React",
     "imageSrc": "icons/skills/react.png",
     "url": "https://react.dev/",
-    "level": 0.8,
+    "level": 0.85,
     "type": "prog",
     "show": true
   },
@@ -75,7 +75,7 @@
     "title": "Revit",
     "imageSrc": "icons/skills/revit.png",
     "url": "https://www.autodesk.com/products/revit",
-    "level": 0.9,
+    "level": 0.95,
     "type": "bim",
     "show": true
   },
@@ -107,7 +107,7 @@
     "title": "TypeScript",
     "imageSrc": "icons/skills/typescript.png",
     "url": "https://www.typescriptlang.org/",
-    "level": 0.9,
+    "level": 1,
     "type": "prog",
     "show": true
   },

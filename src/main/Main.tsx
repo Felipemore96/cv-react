@@ -10,6 +10,7 @@ export function Main() {
         <p className={styles.description}>Hello, I'm</p>
         <h1 className={styles.title}>Felipe Moreira</h1>
         <p className={styles.description}>AEC Software Developer</p>
+        <p className={styles.description}>BIM Specialist</p>
         <p className={styles.description}>Civil Engineer</p>
         <div className={styles.firstBtnLine}>
           <a
